@@ -69,36 +69,37 @@
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="feature">
-                <input class="visually-hidden feature-input" type="checkbox" name="wīfī">
-                <span class="feature-mark"></span>
-                <span class="feature-label">Wi-Fi</span>
+              <label class="control">
+                <input class="visually-hidden control-input" type="checkbox" name="wīfī">
+                <span class="control-mark"></span>
+                <span class="control-label">Wi-Fi</span>
               </label>
             </li>
+          </ul>
         </fieldset>
 
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Тип жилья:</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="type-group" value="hotel" checked>
-                <span class="control-mark"></span>
-                <span class="control-label">Гостиница</span>
+              <label class="house-type">
+                <input class="visually-hidden house-type-input" type="radio" name="type-group" value="hotel" checked>
+                <span class="house-type-mark"></span>
+                <span class="house-type-label">Гостиница</span>
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="type-group" value="motel">
-                <span class="control-mark"></span>
-                <span class="control-label">Мотель</span>
+              <label class="house-type">
+                <input class="visually-hidden house-type-input" type="radio" name="type-group" value="motel">
+                <span class="house-type-mark"></span>
+                <span class="house-type-label">Мотель</span>
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="type-group" value="apartments">
-                <span class="control-mark"></span>
-                <span class="control-label">Апартаменты</span>
+              <label class="house-type">
+                <input class="visually-hidden house-type-input" type="radio" name="type-group" value="apartments">
+                <span class="house-type-mark"></span>
+                <span class="house-type-label">Апартаменты</span>
               </label>
             </li>
           </ul>
@@ -107,12 +108,11 @@
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Стоимость, ₽:</legend>
           <label class="catalog-filter-label">
-
-            <input class="catalog-filter-input" type="number" name="min-price" placeholder="от">
+            от<input class="catalog-filter-input" type="number" name="min-price" min="0" value="0">
           </label>
 
           <label class="catalog-filter-label">
-            <input class="catalog-filter-input" type="number" name="max-price" placeholder="до">
+            до <input class="catalog-filter-input" type="number" name="max-price" min="0" value="9000">
           </label>
           <p>
             <button class="range-toggle toggle-min" type="button">
@@ -342,7 +342,7 @@
 
     <section class="footer-contacts">
       <h2 class="visually-hidden">Контактный телефон</h2>
-      <a class="footer-contacts-phone" href="tel:8 8128121212">+7 (812) 812-12-12</a>
+      <a class="footer-contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
     </section>
 
 
