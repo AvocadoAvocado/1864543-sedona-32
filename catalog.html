@@ -25,9 +25,13 @@
         <li class="navigation-item">
           <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
         </li>
+        <li class="navigation-item">
+          <button class="button" type="button"><span class="visually-hidden">В избранное</span></button>
+        </li>
+        <li class="navigation-item-button">
+          <button class="button" type="button"><span class="visually-hidden">Хочу сюда!</span></button>
+        </li>
       </ul>
-      <button class="button" type="button"><span class="visually-hidden">В избранное</span></button>
-      <button class="button" type="button"><span class="visually-hidden">Хочу сюда!</span></button>
     </nav>
     <img class="page-header-logo" src="" alt="Логотип городка Седона">
   </header>
@@ -102,11 +106,11 @@
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Стоимость, ₽:</legend>
           <label class="catalog-filter-label">
-            от<input class="catalog-filter-input" type="text" name="min-price" min="0" value="0">
+            от<input class="catalog-filter-input" type="text" name="min-price" value="0">
           </label>
 
           <label class="catalog-filter-label">
-            до <input class="catalog-filter-input" type="text" name="max-price" min="0" value="9000">
+            до <input class="catalog-filter-input" type="text" name="max-price" value="9000">
           </label>
           <p>
             <button class="range-toggle toggle-min" type="button">
