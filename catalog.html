@@ -130,16 +130,14 @@
       </form>
     </section>
 
-
-    <section class="catalog-products">
-
-
+    <section class="results-control">
+      <h2 class="search-results-title">Найдено гостиниц: 38</h2>
       <form class="sorting-type">
         <label class="visually-hidden" for="sorting">Сортировка</label>
         <select class="select-control" id="sorting" name="sorting">
-          <option value="popular">Сначала популярное</option>
-          <option value="cheap">Сначала дешёвое</option>
-          <option value="expensive">Сначала дорогое</option>
+          <option value="popular">Сначала популярные</option>
+          <option value="cheap">Сначала дешёвые</option>
+          <option value="expensive">Сначала дорогие</option>
         </select>
         <button class="visually-hidden" type="submit">Отсортировать продукты</button>
       </form>
@@ -147,19 +145,35 @@
         <span class="visually-hidden">Показать карточки</span>
       </a>
       <a href="#" class="button">
-        <span class="visually-hidden">С компьютера</span>
+        <span class="visually-hidden">Показать большие карточки</span>
       </a>
       <a href="#" class="button">
         <span class="visually-hidden">Показать список</span>
       </a>
-      <ul class="product-list">
-      <li class="product-card">
-        <a class="product-card-link" href="product.html">
-          <img class="product-card-image" src="" alt="">
-          <h3 class="product-card-title">Amara Resort & Spa</h3>
+
+      <div class="hotel-card">
+        <a class="hotel-card-link" href="hotel.html">
+          <img class="hotel-card-image" src="" alt="">
+          <h3 class="hotel-card-title">Amara Resort & Spa</h3>
         </a>
-        <p class="product-card-price">744 ₽</p>
-        <a href="#" class="product-card-button button">подробнее</a>
+        <span class="hotel-card-type">Гостиница</span>
+        <span class="hotel-card-price">От 4000 ₽</span>
+        <a href="#" class="hotel-card-button button">подробнее</a>
+        <a href="#" class="hotel-card-button button">В избранное</a>
+        <span class="hotel-card-rating">Рейтинг: 8,5</span>
+      </div>
+    </section>
+
+
+    <section class="catalog-products">
+      <ul class="hotel-list">
+      <li class="hotel-card">
+        <a class="hotel-card-link" href="hotel.html">
+          <img class="hotel-card-image" src="" alt="">
+          <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+        </a>
+        <p class="hotel-card-price">744 ₽</p>
+        <a href="#" class="hotel-card-button button">подробнее</a>
       </li>
 
       <li class="product-card">
