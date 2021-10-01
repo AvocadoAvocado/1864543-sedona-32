@@ -28,3 +28,47 @@
   src: url("fonts/pt-sans-bold.woff2") format("woff2");
 }
 
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.page-header {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight:700px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit
+}
+
+.index-picture {
+  background-image: url("../images/index-html.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.container{
+  text-align: center;
+}
+
+.container-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.container-text{
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+}
