@@ -36,6 +36,32 @@ body {
   background-color: #FFFFFF;
 }
 
+.button{
+  font-family: inherit;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
+}
+
+.want-here{
+ font-size: 16px;
+ line-height: 21px;
+}
+
+ .subscribe{
+ color: inherit;
+ background-color: #83B3D3;
+ line-height: 26px;
+}
+
+.button-search{
+  line-height: 36px;
+}
+
 .page-header {
   color: #000000;
   background: #FFFFFF;
@@ -55,6 +81,10 @@ body {
   background-image: url("../images/index-html.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.header-picture::after{
+  content: url("../images/page-figure.svg");
 }
 
 .container{
@@ -138,4 +168,47 @@ ul .advantage-item-title{
 }
 
 
+.search{
+  text-align: center;
+}
 
+.search-title{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.search-text, .page-main-text{
+font-size: 22px;
+line-height: 26px;
+}
+
+.newsletter{
+  background-image: url("../images/main-newsletter.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.page-main-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.page-footer{
+  color: #000000;
+  background-color: #FFFFFF;
+
+}
+
+.footer-contacts-phone{
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: inherit;
+  text-decoration: none;
+}
+
+.htmlacademy-link{
+  background-image: url("../images/footer/html-academy.svg");
+}
