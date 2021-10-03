@@ -112,6 +112,10 @@ a{
   color: #333333;
 }
 
+.advantages-list{
+text-align: center;
+}
+
 .advantages-item--wide{
   color: #FFFFFF;
   background-color: #83B3D3;
@@ -175,13 +179,19 @@ ul .advantage-item-title{
   background: rgba(131, 179, 211, 0.2);
 }
 
+.advantages-list--number{
+  text-align: center;
+}
 
 .search{
   text-align: center;
+
 }
 
 .search-title{
   font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
