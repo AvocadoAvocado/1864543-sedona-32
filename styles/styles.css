@@ -29,22 +29,28 @@
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
+}
+
+.content{
+width: 1280px;
+background-color: #FFFFFF;
+margin: 0 auto;
+box-shadow:  0 0 5px;
 }
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: inherit;
   background-color: inherit;
   text-decoration: none;
-  text-transform: uppercase;
   font-style: normal;
 }
 
@@ -61,7 +67,7 @@ body {
 
 .btn-want {
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 .button-search {
@@ -74,14 +80,13 @@ body {
 }
 
 .navigation-link--active {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   color: inherit;
   background-color: inherit;
   text-decoration: none;
-  text-transform: uppercase;
   font-style: normal;
 }
 
@@ -107,10 +112,11 @@ body {
 
 .container {
   text-align: center;
+
 }
 
 .container-title {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -329,6 +335,8 @@ ul .advantage-item-title {
   line-height: 20px;
   font-weight: 400;
   text-transform: none;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .catalog-filter-title {
@@ -377,6 +385,7 @@ ul .advantage-item-title {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  text-decoration: n;
 }
 
 .pagination-curent {
