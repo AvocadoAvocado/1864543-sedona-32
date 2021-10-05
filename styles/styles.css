@@ -384,7 +384,7 @@ ul .advantage-item-title {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
-  text-decoration: n;
+  text-decoration: none;
 }
 
 .pagination-curent {
