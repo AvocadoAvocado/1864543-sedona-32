@@ -28,7 +28,16 @@
   src: url("../fonts/ptsans-bold-italic.woff2") format("woff2");
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0 auto;
+  display: flex;
+  min-height: 100%;
+  width: 1280px;
+  flex-direction: column;
   font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -37,10 +46,27 @@ body {
 }
 
 .content {
-  width: 1280px;
+  width: 1200px;
   background-color: #FFFFFF;
   margin: 0 auto;
   box-shadow: 0 0 5px;
+}
+
+.header-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 430px;
+  margin: 0;
+  padding: 0;
+}
+
+.container-user {
+  max-width: 160px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -52,6 +78,24 @@ body {
   background-color: inherit;
   text-decoration: none;
   font-style: normal;
+}
+
+.page-header-logo{
+  margin: 0 auto;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-welcome-image{
+  display: block;
+  margin: 0 auto;
 }
 
 .button {
@@ -128,12 +172,23 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 .advantages-item--wide {
+  display: flex;
+  justify-content: space-between;
   color: #FFFFFF;
   background-color: #83B3D3;
+}
+
+.item-wide{
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .advantage-item-title {
@@ -160,7 +215,13 @@ ul .advantage-item-title {
   color: #000000;
 }
 
+.advantages-item-text{
+  width: 220px;
+  text-align: center;
+}
+
 .advantages-item {
+  width: 250px;
   background: rgba(131, 179, 211, 0.12);
 }
 
@@ -191,6 +252,10 @@ ul .advantage-item-title {
 }
 
 .advantages-list--number {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
