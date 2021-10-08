@@ -155,7 +155,9 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   text-align: center;
+  width: 720px;
 }
 
 .container-title {
@@ -228,6 +230,7 @@ ul .advantage-item-title {
 .item-icon {
   width: 72px;
   height: 76px;
+  display: inline-block;
   background-repeat: no-repeat;
 }
 
@@ -271,6 +274,8 @@ ul .advantage-item-title {
 }
 
 .search-text, .page-main-text {
+  margin: 0 auto;
+  width: 720px;
   font-size: 22px;
   line-height: 26px;
 }
@@ -292,6 +297,22 @@ ul .advantage-item-title {
   line-height: 26px;
 }
 
+.page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social-list{
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-list{
+  margin-right: auto;
+  max-width: 190px;
+}
+
 .page-footer {
   color: #000000;
   background-color: #FFFFFF;
@@ -306,6 +327,8 @@ ul .advantage-item-title {
 }
 
 .htmlacademy-link {
+  margin-left: auto;
+  width: 115px;
   background-image: url("../images/footer/html-academy.svg");
   background-repeat: no-repeat;
 }
