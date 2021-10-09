@@ -58,6 +58,7 @@ body {
 }
 
 .navigation-list {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -184,6 +185,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  list-style: none;
+}
+
+.advantages-list--number{
+  list-style: none;
 }
 
 .advantages-item--wide {
@@ -334,6 +340,7 @@ ul .advantage-item-title {
 
 .footer-social-list {
   margin-right: auto;
+  list-style: none;
 }
 
 .htmlacademy-link {
@@ -435,6 +442,16 @@ ul .advantage-item-title {
   text-decoration: none;
 }
 
+.container-filter-col{
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-stock{
+  display: flex;
+  justify-content: space-between;
+}
+
 .catalog-filter-title {
   font-size: 20px;
   line-height: 26px;
@@ -491,3 +508,5 @@ ul .advantage-item-title {
   line-height: 26px;
   font-weight: 700;
 }
+
+
