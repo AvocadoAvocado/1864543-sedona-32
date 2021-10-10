@@ -34,10 +34,7 @@ html {
 
 body {
   margin: 0 auto;
-  display: flex;
-  min-height: 100%;
   width: 1280px;
-  flex-direction: column;
   font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -45,31 +42,39 @@ body {
   background-color: #F2F2F2;
 }
 
-.content {
+.clean{
+
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   width: 1200px;
-  background-color: #FFFFFF;
   margin: 0 auto;
+  background-color: #FFFFFF;
   box-shadow: 0 0 5px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  margin-left: 71px;
 }
 
 .navigation-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
-/*.container-user {
-  margin-left: auto;
-}*/
-
 .navigation-item {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 33px;
 }
 
 .navigation-link {
@@ -83,19 +88,23 @@ body {
   font-style: normal;
 }
 
+.container-user {
+  margin-right: 72px;
+}
+
+.container-user-link{
+  margin-left: 21px;
+}
+
 .page-header-logo {
   position: absolute;
-  margin: 0 auto;
-  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .main-container {
   flex-grow: 1;
-}
-
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .page-welcome-image {
@@ -112,11 +121,14 @@ body {
   color: #FFFFFF;
   background-color: #756257;
   text-decoration: none;
+  padding: 0;
+  border: none;
 }
 
 .btn-want {
   font-size: 16px;
   line-height: 20px;
+  margin-left: 33px;
 }
 
 .button-search {
@@ -127,6 +139,7 @@ body {
   color: #000000;
   background: #FFFFFF;
   position: relative;
+  justify-content: space-between;
 }
 
 .navigation-link--active {
@@ -163,7 +176,7 @@ body {
 .container-desc {
   margin: 0 auto;
   text-align: center;
-  width: 720px;
+  min-width: 720px;
 }
 
 .container-title {
@@ -188,7 +201,7 @@ body {
   list-style: none;
 }
 
-.advantages-list--number{
+.advantages-list--number {
   list-style: none;
 }
 
@@ -242,13 +255,11 @@ ul .advantage-item-title {
 }
 
 .advantages-item-text {
-  width: 400px;
   text-align: center;
 }
 
 .advantages-item {
   background: rgba(131, 179, 211, 0.12);
-  width: 400px;
   height: 384px;
 }
 
@@ -442,12 +453,12 @@ ul .advantage-item-title {
   text-decoration: none;
 }
 
-.container-filter-col{
+.container-filter-col {
   display: flex;
   justify-content: space-around;
 }
 
-.content-stock{
+.content-stock {
   display: flex;
   justify-content: space-between;
 }
@@ -508,5 +519,3 @@ ul .advantage-item-title {
   line-height: 26px;
   font-weight: 700;
 }
-
-
