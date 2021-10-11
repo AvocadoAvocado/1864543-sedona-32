@@ -188,12 +188,6 @@ body {
   color: #333333;
 }
 
-.advantages-list {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-
 .advantages-item--wide {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -211,10 +205,6 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-}
-
-.advantages-item-number {
-  padding: 0 75px;
 }
 
 .advantages-item--wide .advantages-item-description {
@@ -282,6 +272,7 @@ ul .advantage-item-title {
 .advantages-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .advantages-list--number {
