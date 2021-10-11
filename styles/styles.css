@@ -277,7 +277,7 @@ ul .advantage-item-title {
   background-image: url("../images/item-present.svg");
 }
 
-.icon-food {
+.icon-food::before {
   background-image: url("../images/item-food.svg");
 }
 
