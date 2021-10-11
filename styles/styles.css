@@ -42,8 +42,12 @@ body {
   background-color: #F2F2F2;
 }
 
-.clean{
-
+.clean {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
 }
 
 .page-container {
@@ -67,9 +71,6 @@ body {
 }
 
 .navigation-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
 }
 
@@ -84,7 +85,6 @@ body {
   font-weight: 700;
   color: inherit;
   background-color: inherit;
-  text-decoration: none;
   font-style: normal;
 }
 
@@ -92,7 +92,7 @@ body {
   margin-right: 72px;
 }
 
-.container-user-link{
+.container-user-link {
   margin-left: 21px;
 }
 
@@ -120,9 +120,6 @@ body {
   font-weight: bold;
   color: #FFFFFF;
   background-color: #756257;
-  text-decoration: none;
-  padding: 0;
-  border: none;
 }
 
 .btn-want {
@@ -149,7 +146,6 @@ body {
   font-weight: 700;
   color: inherit;
   background-color: inherit;
-  text-decoration: none;
   font-style: normal;
 }
 
@@ -195,14 +191,7 @@ body {
 .advantages-list {
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
   text-align: center;
-  list-style: none;
-}
-
-.advantages-list--number {
-  list-style: none;
 }
 
 .advantages-item--wide {
@@ -293,8 +282,6 @@ ul .advantage-item-title {
 .advantages-list--number {
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
@@ -351,7 +338,6 @@ ul .advantage-item-title {
 
 .footer-social-list {
   margin-right: auto;
-  list-style: none;
 }
 
 .htmlacademy-link {
@@ -450,7 +436,6 @@ ul .advantage-item-title {
   font-weight: 400;
   text-transform: none;
   color: #FFFFFF;
-  text-decoration: none;
 }
 
 .container-filter-col {
@@ -500,7 +485,6 @@ ul .advantage-item-title {
   line-height: 21px;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .pagination-link {
@@ -509,7 +493,6 @@ ul .advantage-item-title {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
-  text-decoration: none;
 }
 
 .pagination-curent {
