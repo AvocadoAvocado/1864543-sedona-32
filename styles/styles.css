@@ -326,6 +326,7 @@ ul .advantage-item-title {
 
 .page-footer-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-contacts-phone {
@@ -337,13 +338,18 @@ ul .advantage-item-title {
 }
 
 .footer-social-list {
-  margin-right: auto;
+  display: flex;
+  margin-left: 72px;
+}
+
+.footer-social-item {
+  margin-right: 30px;
 }
 
 .htmlacademy-link {
+  margin-right: 72px;
   background-image: url("../images/footer/html-academy.svg");
   background-repeat: no-repeat;
-  margin-left: auto;
 }
 
 .newsletter--with-background {
