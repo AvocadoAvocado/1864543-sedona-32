@@ -239,7 +239,6 @@ ul .advantage-item-title {
 
 .advantages-item-text {
   text-align: center;
-
 }
 
 .advantages-item {
@@ -418,6 +417,7 @@ ul .advantage-item-title {
   font-weight: 700;
   font-style: normal;
   text-transform: none;
+  color: #000000;
 }
 
 .hotel-card-type {
