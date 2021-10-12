@@ -461,14 +461,8 @@ ul .advantage-item-title {
   color: #FFFFFF;
 }
 
-.container-filter-col {
+.catalog-filter{
   display: flex;
-  justify-content: space-around;
-}
-
-.content-stock {
-  display: flex;
-  justify-content: space-between;
 }
 
 .catalog-filter-title {
@@ -476,6 +470,22 @@ ul .advantage-item-title {
   line-height: 26px;
   font-weight: 700;
   text-transform: none;
+}
+
+.sorting-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-list{
+  display: flex;
+  flex-direction: column
+}
+
+.hotel-card{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: stretch
 }
 
 .feature-input {
