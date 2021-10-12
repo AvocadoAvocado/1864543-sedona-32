@@ -66,12 +66,9 @@ body {
   align-items: center;
 }
 
-.navigation {
-  margin-left: 71px;
-}
-
 .navigation-list {
   display: flex;
+  padding-left: 71px;
 }
 
 .navigation-item {
