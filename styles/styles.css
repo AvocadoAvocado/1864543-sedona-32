@@ -461,8 +461,9 @@ ul .advantage-item-title {
   color: #FFFFFF;
 }
 
-.catalog-filter{
+.catalog-filter {
   display: flex;
+  align-items: baseline;
 }
 
 .catalog-filter-title {
@@ -472,20 +473,24 @@ ul .advantage-item-title {
   text-transform: none;
 }
 
-.sorting-container{
+.sorting-container {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+}
 }
 
-.hotel-list{
+.hotel-list {
   display: flex;
   flex-direction: column
 }
 
-.hotel-card{
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: stretch
+.hotel-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .feature-input {
