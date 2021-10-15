@@ -152,6 +152,11 @@ body {
   color: inherit;
   background-color: inherit;
   font-style: normal;
+  border-bottom: 2px solid #756257;
+}
+
+.hotel-card {
+  padding-bottom: 30px;
 }
 
 .hotel-card-link {
@@ -162,6 +167,7 @@ body {
   background-color: #FFFFFF;
   text-decoration: none;
   font-style: normal;
+  margin-right: 36px;
 }
 
 .header-picture {
@@ -363,7 +369,6 @@ ul .advantage-item-title {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 411px;
   color: #000000;
 }
 
@@ -425,10 +430,17 @@ ul .advantage-item-title {
 
 .content-container {
   padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .inner-content-container {
   margin: 0 71px;
+}
+
+.results-control {
+  margin: 0 72px;
 }
 
 .list-mode {
@@ -461,7 +473,7 @@ ul .advantage-item-title {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 72px;
+  padding-top: 30px;
 }
 
 .pagination {
@@ -477,12 +489,21 @@ ul .advantage-item-title {
   background-color: #83B3D3;
   display: block;
   margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container-show-more {
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .newsletter-button {
   line-height: 26px;
   color: #FFFFFF;
   background-color: #83B3D3;
+}
+
+.hotel-card {
+  padding-top: 31px;
 }
 
 .hotel-card-title {
@@ -595,32 +616,26 @@ ul .advantage-item-title {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 0 71px;
-}
-
-.hotel-list {
-  margin: 0 72px;
 }
 
 .hotel-list:first-child {
   border-top: 1px solid #E5E5E5;
 }
 
+.hotel-list {
+  margin-bottom: 30px;
+}
+
 .hotel-card {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   border-bottom: 1px solid #E5E5E5;
 }
 
 .hotel-card-column {
   flex-grow: 1;
-}
-
-.hotel-card-link {
-  padding-right: 37px;
 }
 
 .feature-input {
@@ -683,4 +698,13 @@ ul .advantage-item-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+}
+
+.newsletter-catalog {
+  text-align: center;
+  padding: 89px 0 138px 0;
+}
+
+.text-catalog {
+  padding: 15px 0 26px 0;
 }

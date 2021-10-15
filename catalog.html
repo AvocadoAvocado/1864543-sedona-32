@@ -10,8 +10,7 @@
 <body>
   <div class="page-container">
     <header class="page-header">
-      <img class="page-header-logo" src="images/header/page-logo.svg" alt="Логотип городка Седона" width="138"
-        height="70">
+      <img class="page-header-logo" src="images/header/page-logo.svg" alt="Логотип городка Седона" width="138" height="70">
       <div class="header-container">
         <nav class="navigation">
           <ul class="navigation-list clean">
@@ -240,7 +239,9 @@
               </li>
             </ul>
           </div>
-          <button class="button pagination-show-more clean" type="button">Загрузить еще</button>
+          <div class="container-show-more">
+            <button class="button pagination-show-more clean" type="button">Загрузить еще</button>
+          </div>
         </div>
 
         <div class="pagination-container">
@@ -320,11 +321,11 @@
         </div>
       </section>
 
-      <section class="newsletter">
+      <section class="newsletter newsletter-catalog">
         <h2 class="page-main-title clean">Подпишитесь на рассылку</h2>
-        <p class="page-main-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="page-main-text text-catalog">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p class="newsletter-email">
+          <p class="newsletter-email clean">
             <label class="visually-hidden" for="newsletter-email">Email</label>
             <input class="field" type="email" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email"
               required>
