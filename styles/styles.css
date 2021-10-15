@@ -220,6 +220,7 @@ body {
 .advantages-item--wide .advantages-item-description {
   padding: 0 90px;
   margin: 0;
+  text-align: center;
 }
 
 .advantages-item .advantages-item-description {
@@ -250,6 +251,7 @@ ul .advantage-item-title {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
 }
 
 .advantages-item {
@@ -372,6 +374,8 @@ ul .advantage-item-title {
 .page-footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  min-height: 120px;
 }
 
 .footer-contacts-phone {
