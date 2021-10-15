@@ -67,7 +67,12 @@ body {
 }
 
 .navigation-list {
+  min-height: 65px;
   display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 71px;
 }
 
@@ -86,6 +91,8 @@ body {
 }
 
 .container-user {
+  display: flex;
+  flex-wrap: wrap;
   margin-right: 72px;
 }
 
@@ -127,13 +134,13 @@ body {
 
 .button-search {
   line-height: 36px;
+  margin-top: 73px;
 }
 
 .page-header {
   color: #000000;
   background: #FFFFFF;
   position: relative;
-  justify-content: space-between;
 }
 
 .navigation-link--active {
@@ -160,6 +167,7 @@ body {
   background-image: url("../images/index-html.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  padding-top: 51px;
 }
 
 .header-picture::after {
@@ -170,6 +178,8 @@ body {
   margin: 0 auto;
   text-align: center;
   min-width: 720px;
+  padding-top: 63px;
+  padding-bottom: 79px;
 }
 
 .container-title {
@@ -183,6 +193,7 @@ body {
   font-size: 22px;
   line-height: 36px;
   color: #333333;
+  margin-top: 23px;
 }
 
 .advantages-item--wide {
@@ -235,7 +246,10 @@ ul .advantage-item-title {
 }
 
 .advantages-item-text {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .advantages-item {
@@ -244,7 +258,6 @@ ul .advantage-item-title {
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  padding-bottom: 79px;
   background: rgba(131, 179, 211, 0.12);
 }
 
@@ -294,12 +307,22 @@ ul .advantage-item-title {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
+  min-height: 384px;
 }
 
 .advantages-list--number {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
+  min-height: 384px;
+}
+
+.container-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 417px;
 }
 
 .search {
@@ -311,20 +334,25 @@ ul .advantage-item-title {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .search-text, .page-main-text {
-  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
 }
 
 .newsletter {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 411px;
   color: #000000;
 }
 
 .page-main-title {
+  padding-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -374,6 +402,7 @@ ul .advantage-item-title {
   background-image: url("../images/main-newsletter.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  min-height: 411px;
 }
 
 .inner-content-container {
