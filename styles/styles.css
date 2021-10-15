@@ -187,6 +187,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0 240px;
 }
 
 .container-text {
@@ -342,6 +343,8 @@ ul .advantage-item-title {
 .search-text, .page-main-text {
   font-size: 22px;
   line-height: 26px;
+  margin: 0 328px;
+  text-align: center;
 }
 
 .newsletter {
