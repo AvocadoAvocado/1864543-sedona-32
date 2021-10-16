@@ -477,8 +477,14 @@ ul .advantage-item-title {
 }
 
 .pagination {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 55px);
+  grid-template-rows: repeat(auto-fit, 55px);
+  grid-template-rows: 55px;
+  column-gap: 7px;
+  align-items: center;
+  justify-items: center;
+  flex-grow: 1;
 }
 
 .pagination-show-more {
