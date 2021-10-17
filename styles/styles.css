@@ -66,6 +66,10 @@ body {
   align-items: center;
 }
 
+.navigation {
+  padding-left: 71px;
+}
+
 .navigation-list {
   min-height: 65px;
   display: flex;
@@ -73,7 +77,6 @@ body {
   align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-left: 71px;
 }
 
 .navigation-item {
