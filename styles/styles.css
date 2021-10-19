@@ -482,14 +482,18 @@ ul .advantage-item-title {
 }
 
 .pagination {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 55px);
-  grid-template-rows: repeat(auto-fit, 55px);
-  grid-template-rows: 55px;
-  column-gap: 7px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-items: center;
   flex-grow: 1;
+  justify-content: flex-start;
+}
+
+.pagination-item {
+  display: inline-block;
+  padding-right: 7px;
+  align-items: stretch;
 }
 
 .pagination-show-more {
@@ -501,10 +505,6 @@ ul .advantage-item-title {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-}
-
-.container-show-more {
-  border-bottom: 1px solid #E5E5E5;
 }
 
 .newsletter-button {
@@ -704,11 +704,17 @@ ul .advantage-item-title {
 }
 
 .pagination-curent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
   color: #FFFFFF;
   background-color: #83B3D3;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+  width: 55px;
+  height: 55px;
 }
 
 .newsletter-catalog {
