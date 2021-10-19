@@ -643,11 +643,28 @@ ul .advantage-item-title {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  align-items: stretch;
   border-bottom: 1px solid #E5E5E5;
 }
 
 .hotel-card-column {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-card-button {
+  display: flex;
+  flex-direction: row;
+}
+
+.hotel-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../images/catalog-icon/star.svg);
+  background-repeat: repeat-x;
 }
 
 .feature-input {
@@ -694,6 +711,7 @@ ul .advantage-item-title {
   line-height: 21px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-right: 8px;
 }
 
 .pagination-link {
@@ -719,13 +737,12 @@ ul .advantage-item-title {
   padding: 15px 0 26px 0;
 }
 
-.box-control{
+.box-control {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
   color: #333333;
-}
-
-.box-control-number{
-
+  padding: 13px 17px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
 }
