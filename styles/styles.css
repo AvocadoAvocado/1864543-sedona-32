@@ -134,11 +134,15 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin-left: 33px;
+  padding: 8px 27px;
+  border-radius: 4px;
 }
 
 .button-search {
   line-height: 36px;
   margin-top: 73px;
+  padding: 9px 197px;
+  border-radius: 9px;
 }
 
 .page-header {
@@ -511,6 +515,8 @@ ul .advantage-item-title {
   line-height: 26px;
   color: #FFFFFF;
   background-color: #83B3D3;
+  padding: 2px 9px;
+  border-radius: 10px;
 }
 
 .hotel-card {
@@ -678,6 +684,7 @@ ul .advantage-item-title {
 .catalog-filter-group {
   display: flex;
   flex-direction: column;
+  padding-right: 67px;
 }
 
 .house-type-input {
