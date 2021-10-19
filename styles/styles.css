@@ -543,6 +543,7 @@ ul .advantage-item-title {
 
 .number-hotel {
   line-height: 21px;
+  padding-right: 51px;
 }
 
 .visually-hidden {
@@ -696,14 +697,6 @@ ul .advantage-item-title {
 }
 
 .pagination-link {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: 400;
-}
-
-.pagination-curent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -724,4 +717,15 @@ ul .advantage-item-title {
 
 .text-catalog {
   padding: 15px 0 26px 0;
+}
+
+.box-control{
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.box-control-number{
+
 }
