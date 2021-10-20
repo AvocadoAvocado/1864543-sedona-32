@@ -480,6 +480,8 @@ ul .advantage-item-title {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
+  padding: 9px 0;
+  border-radius: 4px;
 }
 
 .pagination-container {
@@ -729,6 +731,9 @@ ul .advantage-item-title {
   line-height: 21px;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
+  padding: 9px 0;
+  border-radius: 4px;
 }
 
 .pagination-link {
