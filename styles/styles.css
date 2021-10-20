@@ -96,6 +96,7 @@ body {
 
 .container-user {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   margin-right: 72px;
 }
@@ -484,6 +485,18 @@ ul .advantage-item-title {
   border-radius: 4px;
 }
 
+.button-favorites--active {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding: 9px 0;
+  border-radius: 4px;
+  background-color: #7DB54F;
+}
+
 .pagination-container {
   display: flex;
   flex-direction: row;
@@ -507,6 +520,20 @@ ul .advantage-item-title {
   align-items: stretch;
 }
 
+.pagination-link--active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #E5E5E5;
+  width: 55px;
+  height: 55px;
+  border-radius: 4px;
+}
+
 .pagination-show-more {
   font-size: 20px;
   line-height: 26px;
@@ -515,7 +542,13 @@ ul .advantage-item-title {
   background-color: #83B3D3;
   display: block;
   margin: 0 auto;
-  margin-bottom: 30px;
+  padding: 10px 156px;
+  border-radius: 4px;
+}
+
+.container-show-more {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .newsletter-button {
@@ -552,6 +585,9 @@ ul .advantage-item-title {
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  padding: 9px 15px;
+  border-radius: 4px;
+  background-color: #F2F2F2;
 }
 
 .number-hotel {
@@ -715,13 +751,16 @@ ul .advantage-item-title {
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  border-radius: 4px;
+  padding: 12px 21px;
 }
 
 .button-reset {
   color: #FFFFFF;
-  background-color: #756257;
   font-size: 18px;
   line-height: 23px;
+  background: none;
+  margin-top: 20px;
 }
 
 .button-more {
@@ -750,13 +789,23 @@ ul .advantage-item-title {
   height: 55px;
 }
 
+.select-control {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #333333;
+  padding: 12px 94px 12px 19px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
 .newsletter-catalog {
   text-align: center;
   padding: 89px 0 138px 0;
 }
 
 .text-catalog {
-  padding: 15px 0 26px 0;
+  padding-bottom: 26px;
 }
 
 .box-control {
