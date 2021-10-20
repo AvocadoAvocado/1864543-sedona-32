@@ -179,6 +179,10 @@ body {
   margin-right: 36px;
 }
 
+.hotel-card-image {
+  vertical-align: bottom;
+}
+
 .header-picture {
   background-image: url("../images/index-html.png");
   background-size: 100% auto;
@@ -464,7 +468,7 @@ ul .advantage-item-title {
   background-size: 100% auto;
   background-repeat: no-repeat;
   padding-top: 35px;
-  padding-bottom: 77px;
+  padding-bottom: 56px;
 }
 
 .button-favorites {
@@ -587,8 +591,13 @@ ul .advantage-item-title {
 
 .catalog-filter {
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
+}
+
+.filter-part1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 67px;
 }
 
 .catalog-filter-item:last-child {
@@ -684,7 +693,10 @@ ul .advantage-item-title {
 .catalog-filter-group {
   display: flex;
   flex-direction: column;
-  padding-right: 67px;
+}
+
+.filter-part2 {
+  display: flex;
 }
 
 .house-type-input {

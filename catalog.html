@@ -51,66 +51,70 @@
           </ul>
           <div class="container-filter-col">
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-              <fieldset class="catalog-filter-group clean">
-                <legend class="catalog-filter-title">Инфраструктура:</legend>
-                <ul class="catalog-filter-list clean">
-                  <li class="catalog-filter-item">
-                    <label class="feature">
-                      <input class="visually-hidden feature-input clean" type="checkbox" name="pool" checked>Бассейн
-                    </label>
-                  </li>
+              <div class="filter-part1">
+                <fieldset class="catalog-filter-group clean">
+                  <legend class="catalog-filter-title">Инфраструктура:</legend>
+                  <ul class="catalog-filter-list clean">
+                    <li class="catalog-filter-item">
+                      <label class="feature">
+                        <input class="visually-hidden feature-input clean" type="checkbox" name="pool" checked>Бассейн
+                      </label>
+                    </li>
 
-                  <li class="catalog-filter-item">
-                    <label class="feature">
-                      <input class="visually-hidden feature-input clean" type="checkbox" name="parking" checked>Парковка
-                    </label>
-                  </li>
-                  <li class="catalog-filter-item">
-                    <label class="feature">
-                      <input class="visually-hidden feature-input clean" type="checkbox" name="wīfī">Wi-Fi
-                    </label>
-                  </li>
-                </ul>
-              </fieldset>
+                    <li class="catalog-filter-item">
+                      <label class="feature">
+                        <input class="visually-hidden feature-input clean" type="checkbox" name="parking"
+                          checked>Парковка
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="feature">
+                        <input class="visually-hidden feature-input clean" type="checkbox" name="wīfī">Wi-Fi
+                      </label>
+                    </li>
+                  </ul>
+                </fieldset>
 
-              <fieldset class="catalog-filter-group clean">
-                <legend class="catalog-filter-title">Тип жилья:</legend>
-                <label class="house-type">
-                  <input class="visually-hidden house-type-input clean" type="radio" name="type-group" value="hotel"
-                    checked>Гостиница
-                </label>
+                <fieldset class="catalog-filter-group clean">
+                  <legend class="catalog-filter-title">Тип жилья:</legend>
+                  <label class="house-type">
+                    <input class="visually-hidden house-type-input clean" type="radio" name="type-group" value="hotel"
+                      checked>Гостиница
+                  </label>
 
-                <label class="house-type">
-                  <input class="visually-hidden house-type-input clean" type="radio" name="type-group"
-                    value="motel">Мотель
-                </label>
+                  <label class="house-type">
+                    <input class="visually-hidden house-type-input clean" type="radio" name="type-group"
+                      value="motel">Мотель
+                  </label>
 
-                <label class="house-type">
-                  <input class="visually-hidden house-type-input clean" type="radio" name="type-group"
-                    value="apartments">Апартаменты
-                </label>
-              </fieldset>
+                  <label class="house-type">
+                    <input class="visually-hidden house-type-input clean" type="radio" name="type-group"
+                      value="apartments">Апартаменты
+                  </label>
+                </fieldset>
+              </div>
+              <div class="filter-part2">
+                <fieldset class="catalog-filter-group-wide clean">
+                  <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                  <label class="catalog-filter-label">
+                    от<input class="catalog-filter-input" type="text" name="min-price" value="0">
+                  </label>
 
-              <fieldset class="catalog-filter-group-wide clean">
-                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                <label class="catalog-filter-label">
-                  от<input class="catalog-filter-input" type="text" name="min-price" value="0">
-                </label>
-
-                <label class="catalog-filter-label">
-                  до <input class="catalog-filter-input" type="text" name="max-price" value="9000">
-                </label>
-                <div class="range-controls">
-                  <div class="scale">
-                    <div class="bar"></div>
+                  <label class="catalog-filter-label">
+                    до <input class="catalog-filter-input" type="text" name="max-price" value="9000">
+                  </label>
+                  <div class="range-controls">
+                    <div class="scale">
+                      <div class="bar"></div>
+                    </div>
+                    <div class="toggle toggle-min">Изменить минимальную цену.</div>
+                    <div class="toggle toggle-max">Изменить максимальную цену.</div>
                   </div>
-                  <div class="toggle toggle-min">Изменить минимальную цену.</div>
-                  <div class="toggle toggle-max">Изменить максимальную цену.</div>
+                </fieldset>
+                <div class="button-action">
+                  <button class="button-apply clean" type="submit">Применить</button>
+                  <button class="button-reset clean" type="reset">Сбросить</button>
                 </div>
-              </fieldset>
-              <div class="button-action">
-                <button class="button-apply clean" type="submit">Применить</button>
-                <button class="button-reset clean" type="reset">Сбросить</button>
               </div>
             </form>
           </div>
