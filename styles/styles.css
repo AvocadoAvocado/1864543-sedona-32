@@ -176,11 +176,12 @@ body {
   background-color: #FFFFFF;
   text-decoration: none;
   font-style: normal;
-  margin-right: 36px;
+  grid-area: name;
 }
 
 .hotel-card-image {
   vertical-align: bottom;
+  margin-right: 36px;
 }
 
 .header-picture {
@@ -664,14 +665,12 @@ ul .advantage-item-title {
 
 .hotel-card-column {
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.hotel-card-button {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-areas: "name name";
+  grid-template-columns: 151px 160px;
+  grid-template-rows: 31px 23px;
+  column-gap: 8px;
+  align-items: end;
 }
 
 .hotel-rating {
@@ -730,7 +729,6 @@ ul .advantage-item-title {
   line-height: 21px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-right: 8px;
 }
 
 .pagination-link {
