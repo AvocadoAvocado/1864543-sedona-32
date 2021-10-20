@@ -65,6 +65,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 6;
+  padding-right: 33px;
 }
 
 .navigation {
@@ -78,10 +79,6 @@ body {
   align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.navigation-item {
-  padding-right: 33px;
 }
 
 .navigation-link {
@@ -489,7 +486,6 @@ ul .advantage-item-title {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  font-style: normal;
   font-weight: 700;
   color: #FFFFFF;
   padding: 9px 0;
@@ -515,9 +511,8 @@ ul .advantage-item-title {
 }
 
 .pagination-item {
-  display: inline-block;
+  display: flex;
   padding-right: 7px;
-  align-items: stretch;
 }
 
 .pagination-link--active {
