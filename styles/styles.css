@@ -65,11 +65,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 6;
-  padding-right: 33px;
-}
-
-.navigation {
-  padding-left: 71px;
+  padding: 0 71px;
 }
 
 .navigation-list {
@@ -89,13 +85,13 @@ body {
   color: inherit;
   background-color: inherit;
   font-style: normal;
+  margin: 0 16px;
 }
 
 .container-user {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-right: 72px;
 }
 
 .container-user-link {
@@ -160,6 +156,7 @@ body {
   font-style: normal;
   border-bottom: 2px solid #756257;
   padding: 19px 0;
+  margin-right: 16px;
 }
 
 .hotel-card {
@@ -174,7 +171,6 @@ body {
   background-color: #FFFFFF;
   text-decoration: none;
   font-style: normal;
-  grid-area: name;
 }
 
 .hotel-card-image {
@@ -698,11 +694,17 @@ ul .advantage-item-title {
 
 .hotel-card-column {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-card-column-details {
   display: grid;
-  grid-template-areas: "name name";
   grid-template-columns: 151px 160px;
-  grid-template-rows: 31px 23px;
+  grid-template-rows: 23px;
   column-gap: 8px;
+  row-gap: 28px;
   align-items: end;
 }
 
