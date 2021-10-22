@@ -369,7 +369,10 @@ ul .advantage-item-title {
 
 .newsletter-form {
   display: flex;
-  align-items: center
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
 }
 
 .newsletter {
@@ -414,6 +417,7 @@ ul .advantage-item-title {
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   margin-left: 72px;
 }
 
@@ -434,6 +438,10 @@ ul .advantage-item-title {
   background-size: 100% auto;
   background-repeat: no-repeat;
   min-height: 411px;
+}
+
+.field {
+  padding: 14px 10px;
 }
 
 .content-container {
