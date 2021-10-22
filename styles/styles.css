@@ -442,6 +442,7 @@ ul .advantage-item-title {
 
 .field {
   padding: 14px 10px;
+  border-radius: 10px;
 }
 
 .content-container {
@@ -595,10 +596,14 @@ ul .advantage-item-title {
 }
 
 .visually-hidden {
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: 400;
-  text-transform: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .search-results-title {
