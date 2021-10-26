@@ -115,6 +115,8 @@ body {
 }
 
 .button {
+  display: inline-block;
+  box-sizing: border-box;
   font-family: inherit;
   font-size: 20px;
   text-align: center;
@@ -423,7 +425,7 @@ ul .advantage-item-title {
   flex-wrap: wrap;
 }
 
-.footer-social-link{
+.footer-social-link {
   display: block;
   height: 18px;
   width: 20px;
@@ -483,8 +485,27 @@ ul .advantage-item-title {
   margin: 0 72px;
 }
 
+.list-mode-icon{
+padding-right: 8px;
+}
+
 .list-mode {
   display: flex;
+}
+
+.card-grid-toggle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #FFFFFF;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.toggle-current{
+  border: 2px solid #000000;
 }
 
 .inner-content {
@@ -508,17 +529,6 @@ ul .advantage-item-title {
   background-color: #83B3D3;
   padding: 9px 0;
   border-radius: 4px;
-}
-
-.button-favorites--active {
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #FFFFFF;
-  padding: 9px 0;
-  border-radius: 4px;
-  background-color: #7DB54F;
 }
 
 .pagination-container {
