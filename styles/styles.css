@@ -81,28 +81,11 @@ body {
   outline: none;
   border: 4px solid #83B3D3;
   border-radius: 10px;
-  color: #756257;
-  padding: 3px 7px;
+  padding: 2px 9px;
 }
 
 .navigation-icon {
   fill: #000000;
-}
-
-.navigation-icon:hover {
-  fill: #756257;
-}
-
-.navigation-icon:active {
-  fill: rgba(117, 98, 87, 0.3);
-}
-
-.navigation-icon:focus {
-  outline: none;
-  fill: #756257;
-  border: 4px solid #83B3D3;
-  border-radius: 10px;
-  padding: 6px 6px;
 }
 
 .navigation-list {
@@ -132,7 +115,30 @@ body {
 }
 
 .container-user-link {
-  margin-left: 21px;
+  line-height: 0;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  padding: 6px 6px;
+  box-sizing: border-box;
+}
+
+.container-user-link:focus .navigation-icon {
+  fill: #756257;
+}
+
+.container-user-link:hover .navigation-icon{
+  fill: #756257;
+}
+
+.container-user-link:active .navigation-icon{
+  fill: rgba(117, 98, 87, 0.3);
+}
+
+.container-user-link:focus {
+  outline: none;
+  border: 4px solid #83B3D3;
+  border-radius: 10px;
+  padding: 6px 6px;
 }
 
 .page-header-logo {
@@ -167,7 +173,7 @@ body {
 .btn-want {
   font-size: 16px;
   line-height: 20px;
-  margin-left: 33px;
+  margin-left: 19px;
   padding: 8px 27px;
   border-radius: 4px;
 }
@@ -234,7 +240,7 @@ body {
   border: 4px solid #83B3D3;
   border-radius: 10px;
   color: #756257;
-  padding: 3px 7px;
+  padding: 2px 9px;
 }
 
 .navigation-link--active:hover {
@@ -537,7 +543,7 @@ ul .advantage-item-title {
   color: #68A2CA;
 }
 
-.footer-social-link:active{
+.footer-social-link:active {
   color: rgba(104, 162, 202, 0.3);
 }
 
