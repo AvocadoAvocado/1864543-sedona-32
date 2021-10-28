@@ -65,7 +65,22 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 6;
-  padding: 0 71px;
+  padding-left: 65px;
+  padding-right: 71px;
+}
+
+.navigation-link {
+  font-family: "PT Sans", "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: inherit;
+  background-color: inherit;
+  font-style: normal;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  padding: 6px 12px;
 }
 
 .navigation-link:hover {
@@ -79,9 +94,8 @@ body {
 
 .navigation-link:focus {
   outline: none;
-  border: 4px solid #83B3D3;
-  border-radius: 10px;
-  padding: 2px 9px;
+  color: #756257;
+  border: 3px solid #83B3D3;
 }
 
 .navigation-icon {
@@ -97,22 +111,12 @@ body {
   flex-wrap: wrap;
 }
 
-.navigation-item{
-margin: 0 16px;
+.navigation-item {
+  margin: 0 16px;
 }
 
-.navigation-item:first-child{
+.navigation-item:first-child {
   margin-left: 0;
-}
-
-.navigation-link {
-  font-family: "PT Sans", "Montserrat", sans-serif;
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 700;
-  color: inherit;
-  background-color: inherit;
-  font-style: normal;
 }
 
 .container-user {
@@ -183,9 +187,17 @@ margin: 0 16px;
   margin-left: 19px;
   padding: 8px 27px;
   border-radius: 4px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
 }
 
 .btn-want:hover {
+  background-color: #615048;
+}
+
+.btn-want:focus {
+  outline: none;
+  border: 3px solid #83B3D3;
   background-color: #615048;
 }
 
@@ -193,12 +205,6 @@ margin: 0 16px;
   background-color: #615048;
   color: rgba(255, 255, 255, 0.30);
   border: none;
-}
-
-.btn-want:focus {
-  outline: none;
-  border: 3px solid #83B3D3;
-  background-color: #615048;
 }
 
 .button-search {
@@ -238,15 +244,16 @@ margin: 0 16px;
   background-color: inherit;
   font-style: normal;
   border-bottom: 2px solid #756257;
-  padding: 19px 0;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: 10px;
 }
 
 .navigation-link--active:focus {
   outline: none;
   border: 4px solid #83B3D3;
-  border-radius: 10px;
   color: #756257;
-  padding: 2px 9px;
 }
 
 .navigation-link--active:hover {
@@ -608,7 +615,7 @@ ul .advantage-item-title {
   height: 34px;
 }
 
-.htmlacademy-link:focus .htmlacademy-link-image{
+.htmlacademy-link:focus .htmlacademy-link-image {
   fill: #756257;
 }
 
@@ -766,17 +773,17 @@ ul .advantage-item-title {
   border-radius: 4px;
 }
 
-.pagination-show-more:hover{
+.pagination-show-more:hover {
   background-color: #68A2CA;
 }
 
-.pagination-show-more:focus{
-  outline:none;
+.pagination-show-more:focus {
+  outline: none;
   background-color: #68A2CA;
   border: 3px solid #756257;
 }
 
-.pagination-show-more:active{
+.pagination-show-more:active {
   color: rgba(255, 255, 255, 0.30);
 }
 
@@ -833,7 +840,7 @@ ul .advantage-item-title {
   border: 3px solid #83B3D3;
 }
 
-.title:focus{
+.title:focus {
   border: 3px solid #83B3D3;
   border-radius: 10px;
   padding: 10px 16px;
@@ -900,9 +907,14 @@ ul .advantage-item-title {
   font-weight: 400;
   text-transform: none;
   color: #FFFFFF;
+  box-sizing: border-box;
+  line-height: 0;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  padding: 3px 8px;
 }
 
-.breadcrumbs-item{
+.breadcrumbs-item {
   margin-left: 10px;
 }
 
@@ -921,8 +933,6 @@ ul .advantage-item-title {
 .breadcrumbs-link:focus {
   outline: none;
   border: 3px solid #83B3D3;
-  border-radius: 4px;
-  padding: 3px 8px;
 }
 
 .catalog-filter {
@@ -1058,6 +1068,9 @@ ul .advantage-item-title {
   text-transform: uppercase;
   border-radius: 4px;
   padding: 12px 21px;
+  line-height: 0;
+  border: 3px solid transparent;
+  box-sizing: border-box;
 }
 
 .button-apply:hover {
@@ -1081,6 +1094,10 @@ ul .advantage-item-title {
   line-height: 23px;
   background: none;
   margin-top: 20px;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  padding: 3px 8px;
+  box-sizing: border-box;
 }
 
 .button-reset:hover {
@@ -1093,10 +1110,7 @@ ul .advantage-item-title {
 
 .button-reset:focus {
   outline: none;
-  color: #FFFFFF;
-  padding: 3px 8px;
   border: 3px solid #83B3D3;
-  border-radius: 4px;
 }
 
 .button-more {
