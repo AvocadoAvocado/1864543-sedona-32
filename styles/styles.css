@@ -97,6 +97,14 @@ body {
   flex-wrap: wrap;
 }
 
+.navigation-item{
+margin: 0 16px;
+}
+
+.navigation-item:first-child{
+  margin-left: 0;
+}
+
 .navigation-link {
   font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 20px;
@@ -105,7 +113,6 @@ body {
   color: inherit;
   background-color: inherit;
   font-style: normal;
-  margin: 0 16px;
 }
 
 .container-user {
@@ -232,7 +239,6 @@ body {
   font-style: normal;
   border-bottom: 2px solid #756257;
   padding: 19px 0;
-  margin-right: 16px;
 }
 
 .navigation-link--active:focus {
