@@ -831,7 +831,41 @@ ul .advantage-item-title {
   font-weight: 400;
   text-transform: none;
   color: #FFFFFF;
-  padding-right: 26px;
+  padding-right: 10px;
+}
+
+.breadcrumbs-link-icon {
+  fill: #FFFFFF;
+}
+
+.breadcrumbs-link:hover {
+  opacity: 60%;
+}
+
+.breadcrumbs-control:hover .breadcrumbs-link-icon {
+  opacity: 0%;
+}
+
+.breadcrumbs-link:active {
+  opacity: 30%;
+}
+
+.breadcrumbs-control:active .breadcrumbs-link-icon {
+  opacity: 30%;
+}
+
+.breadcrumbs-link:focus {
+  outline: none;
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+
+.breadcrumbs-control:focus .breadcrumbs-link-icon {
+  outline: none;
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
+  padding: 3px 8px;
 }
 
 .catalog-filter {
@@ -967,12 +1001,43 @@ ul .advantage-item-title {
   padding: 12px 21px;
 }
 
+.button-apply:hover {
+  background-color: #68A2CA;
+}
+
+.button-apply:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-apply:focus {
+  outline: none;
+  border: 3px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: #68A2CA;
+}
+
 .button-reset {
   color: #FFFFFF;
   font-size: 18px;
   line-height: 23px;
   background: none;
   margin-top: 20px;
+}
+
+.button-reset:hover {
+  opacity: 60%;
+}
+
+.button-reset:active {
+  opacity: 30%;
+}
+
+.button-reset:focus {
+  outline: none;
+  color: #FFFFFF;
+  padding: 3px 8px;
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
 }
 
 .button-more {
