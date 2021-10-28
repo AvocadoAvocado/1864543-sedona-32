@@ -269,13 +269,10 @@ body {
 }
 
 .hotel-card-link {
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #000000;
-  background-color: #FFFFFF;
   text-decoration: none;
   font-style: normal;
+  border: 3px solid transparent;
+  margin: -3px;
 }
 
 .hotel-card-image {
@@ -284,11 +281,6 @@ body {
 
 .hotel-card-image:hover {
   opacity: 60%;
-}
-
-.hotel-card-link:focus {
-  outline: none;
-  border: 3px solid #83B3D3;
 }
 
 .hotel-card-image:active {
@@ -635,6 +627,8 @@ ul .advantage-item-title {
   background-color: #F2F2F2;
   min-width: 556px;
   min-height: 32px;
+  margin: -3px;
+  border: 3px solid transparent;
 }
 
 .field:hover {
@@ -721,8 +715,9 @@ ul .advantage-item-title {
   font-weight: 700;
   color: #FFFFFF;
   background-color: #83B3D3;
-  padding: 9px 0;
+  padding: 7px 0;
   border-radius: 4px;
+  border: 3px solid transparent;
 }
 
 .button-favorites:hover {
@@ -771,6 +766,7 @@ ul .advantage-item-title {
   margin: 0 auto;
   padding: 10px 156px;
   border-radius: 4px;
+  border: 3px solid transparent;
 }
 
 .pagination-show-more:hover {
@@ -794,7 +790,7 @@ ul .advantage-item-title {
 
 .newsletter-button {
   width: 200px;
-  height: 60px;
+  height: 66px;
   line-height: 26px;
   color: #FFFFFF;
   background-color: #83B3D3;
@@ -840,10 +836,24 @@ ul .advantage-item-title {
   border: 3px solid #83B3D3;
 }
 
-.title:focus {
+.hotel-card-link-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  font-style: normal;
+  padding: 5px 15px;
+  margin-left: -17px;
+  margin-top: -12px;
+  border: 3px solid transparent;
+}
+
+.hotel-card-link-title:focus {
+  outline: none;
   border: 3px solid #83B3D3;
   border-radius: 10px;
-  padding: 10px 16px;
 }
 
 .hotel-card-title:active {
@@ -1013,7 +1023,7 @@ ul .advantage-item-title {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-left: 36px;
 }
 
@@ -1022,7 +1032,7 @@ ul .advantage-item-title {
   grid-template-columns: 151px 160px;
   grid-template-rows: 23px;
   column-gap: 8px;
-  row-gap: 28px;
+  row-gap: 22px;
   align-items: end;
 }
 
@@ -1121,8 +1131,9 @@ ul .advantage-item-title {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  padding: 9px 0;
+  padding: 6px 0;
   border-radius: 4px;
+  border: 3px solid transparent;
 }
 
 .button-more:hover {
