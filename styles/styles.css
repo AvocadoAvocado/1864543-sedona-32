@@ -793,6 +793,7 @@ ul .advantage-item-title {
 }
 
 .newsletter-button {
+  background-color: #83B3D3;
   width: 200px;
   height: 60px;
   border-top-right-radius: 10px;
@@ -956,6 +957,7 @@ ul .advantage-item-title {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 67px;
+  margin-right: 167px;
 }
 
 .catalog-filter-item:last-child {
@@ -1061,6 +1063,75 @@ ul .advantage-item-title {
 
 .filter-part2 {
   display: flex;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-top: 28px;
+  background-color: rgba(255, 255, 255, 0.30);
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+
+.range-toggle:active, .range-toggle:focus {
+  outline: none;
+  border: 3px solid #83B3D3;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.range-wrapper-inputs {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.catalog-filter-label {
+  display: flex;
+}
+
+.range-input {
+  width: 30px;
+  padding: 0 2px;
+  font: inherit;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  appearance: textfield;
+}
+
+.range-input::-webkit-outer-spin-button, .range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.catalog-filter-input {
+  background-color: none;
+  padding: 18px 14px;
 }
 
 .house-type-input {
