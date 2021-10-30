@@ -964,9 +964,10 @@ ul .advantage-item-title {
   padding-bottom: 0;
 }
 
-.house-type:last-child {
-  padding-bottom: 0;
+.house-type{
   position: relative;
+  display: block;
+  padding-left: 36px;
 }
 
 .button-action {
@@ -1160,7 +1161,7 @@ ul .advantage-item-title {
   border-radius: 50%;
 }
 
-.feature-input[type="radio"]:checked + .feature-mark::before {
+.feature-input[type="radio"]:checked+.feature-mark::before {
   position: absolute;
   top: 6px;
   left: 6px;
@@ -1173,10 +1174,6 @@ ul .advantage-item-title {
 
 .catalog-filter-input {
   padding: 14px 17px;
-}
-
-.house-type {
-  padding-bottom: 13px;
 }
 
 .button-apply {
