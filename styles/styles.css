@@ -246,7 +246,7 @@ body {
   border-bottom: 2px solid #756257;
   padding: 6px 12px;
   box-sizing: border-box;
-  border: 3px solid transparent;
+  border: 4px solid transparent;
   border-radius: 10px;
 }
 
@@ -529,6 +529,7 @@ ul .advantage-item-title {
   line-height: 40px;
   font-weight: 400;
   color: inherit;
+  padding: 10px 15px;
 }
 
 .footer-contacts-phone:hover {
@@ -541,10 +542,9 @@ ul .advantage-item-title {
 
 .footer-contacts-phone:focus {
   outline: none;
-  padding: 6px 36px;
   color: #756257;
   border: 3px solid #68A2CA;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .footer-social-list {
@@ -588,6 +588,11 @@ ul .advantage-item-title {
   fill: rgba(104, 162, 202, 0.3);
 }
 
+.htmlacademy-link {
+  padding: 14px 23px;
+  border: 3px solid transparent;
+}
+
 .htmlacademy-link-image {
   background-repeat: no-repeat;
   width: 115px;
@@ -605,11 +610,8 @@ ul .advantage-item-title {
 
 .htmlacademy-link:focus {
   outline: none;
-  padding: 14px 23px;
+  border-radius: 10px;
   border: 3px solid #68A2CA;
-  border-radius: 7px;
-  width: 116px;
-  height: 34px;
 }
 
 .htmlacademy-link:focus .htmlacademy-link-image {
@@ -670,6 +672,7 @@ ul .advantage-item-title {
 
 .list-mode {
   display: flex;
+  margin-left: 81px;
 }
 
 .list-mode-icon:first-child {
@@ -964,7 +967,7 @@ ul .advantage-item-title {
   padding-bottom: 0;
 }
 
-.house-type{
+.house-type {
   position: relative;
   display: block;
   padding-left: 36px;
@@ -1010,18 +1013,21 @@ ul .advantage-item-title {
 .feature-mark {
   position: absolute;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background-color: #FFFFFF;
   border-radius: 4px;
+  border: 3px solid transparent;
 }
 
-.featurel:hover .feature-mark {
-  border-color: rgba(255, 255, 255, 0.6);
+.feature:hover .feature-mark {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
-.feature-input:disabled+.feature-mark {
-  border-color: rgba(255, 255, 255, 0.3);
+.feature:focus+.feature-mark {
+  outline: none;
+  border-color: 3px solid #83B3D3;
+  opacity: 60%;
 }
 
 .feature-input[type="checkbox"]:checked+.feature-mark::before {
@@ -1163,8 +1169,8 @@ ul .advantage-item-title {
 
 .feature-input[type="radio"]:checked+.feature-mark::before {
   position: absolute;
-  top: 6px;
-  left: 6px;
+  top: 5px;
+  left: 5px;
   width: 8px;
   height: 8px;
   background-color: #3F5E72;
@@ -1284,14 +1290,26 @@ ul .advantage-item-title {
   color: rgba(255, 255, 255, 0.30);
 }
 
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 287px;
+  margin-left: auto;
+}
+
 .select-control {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
   color: #333333;
-  padding: 12px 94px 12px 19px;
+  padding: 12px 127px 12px 19px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  background-image: url(../images/catalog-icon/dropdown.svg);
+  background-repeat: no-repeat;
+  background-position: right 21px center;
+  appearance: none;
 }
 
 .select-control:hover {
