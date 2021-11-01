@@ -177,7 +177,6 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  position: relative;
 }
 
 .popover::after {
