@@ -164,7 +164,6 @@ body {
 }
 
 .popover {
-  position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
@@ -177,27 +176,22 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  border: 2px solid #000000;
 }
 
 .popover-content {
   padding: 25px 25px 0 25px;
-  border: 2px solid #970fd6;
+  border: 1px solid #E5E5E5;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: none;
 }
 
 .popover-content-item {
   display: flex;
-  flex-direction: column;
-  padding-bottom: 25px;
-  border: 2px solid #098340;
-}
-
-.popover-content-item-inner {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 25px;
   align-items: flex-start;
-  border: 2px solid #e22e2e;
 }
 
 .popover-inner-link {
@@ -205,10 +199,22 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid #ee8c1d;
+  padding: 10px;
+  border: 3px solid transparent;
+  margin: -13px;
 }
 
-.hotel-linl-image {
+.popover-inner-link:hover {
+  opacity: 30%;
+}
+
+.popover-inner-link:focus {
+  outline: none;
+  border: 3px solid #83B3D3;
+  border-radius: 10px;
+}
+
+.hotel-link-image {
   border-radius: 50%;
 }
 
@@ -227,22 +233,26 @@ body {
 .popover-icon {
   fill: #000000;
   opacity: 20%;
-  padding-top: 5px;
 }
 
 .favorites-delete {
   background-color: transparent;
   border: 3px solid transparent;
-  outline:none;
+  outline: none;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -3px;
 }
 
-.favorites-delete:hover .popover-icon {
+.favorites-delete:hover .popover-icon, .favorites-delete:focus .popover-icon {
   opacity: 100%;
 }
 
-.favorites-delete:focus .popover-icon {
+.favorites-delete:focus {
   border: 3px solid #83B3D3;
-  padding: 10px 9px;
   border-radius: 10px;
 }
 
@@ -251,10 +261,24 @@ body {
 }
 
 .popover-all-favorites-button {
-  border: 2px solid #64ceff;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   padding: 10px 0;
+  border: 3px solid transparent;
+}
+
+.popover-all-favorites-button:hover {
+  background-color: #615048;
+}
+
+.popover-all-favorites-button:focus {
+  border: 3px solid #83B3D3;
+  background-color: #615048;
+  outline: none;
+}
+
+.popover-all-favorites-button:active {
+  color: rgba(255, 255, 255, 0.30);
 }
 
 .popover-favorites .popover-all-favorites-button {
