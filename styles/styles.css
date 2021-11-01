@@ -174,17 +174,21 @@ body {
   background-color: #FFFFFF;
   min-height: 186px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
   border: 2px solid #000000;
 }
 
 .popover-content {
-  padding: 25px 25px 26px 25px;
+  padding: 25px 25px 0 25px;
   border: 2px solid #970fd6;
 }
 
 .popover-content-item {
   display: flex;
   flex-direction: column;
+  padding-bottom: 25px;
   border: 2px solid #098340;
 }
 
@@ -192,21 +196,69 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
   border: 2px solid #e22e2e;
 }
-.popover-inner-link{
+
+.popover-inner-link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   border: 2px solid #ee8c1d;
+}
+
+.hotel-linl-image {
+  border-radius: 50%;
+}
+
+.link-content {
+  margin-left: 17px;
+}
+
+.hotel-link-title {
+  line-height: 18px;
+}
+
+.hotel-link-subtitle {
+  color: #333333;
+}
+
+.popover-icon {
+  fill: #000000;
+  opacity: 20%;
+  padding-top: 5px;
+}
+
+.favorites-delete {
+  background-color: transparent;
+  border: 3px solid transparent;
+  outline:none;
+}
+
+.favorites-delete:hover .popover-icon {
+  opacity: 100%;
+}
+
+.favorites-delete:focus .popover-icon {
+  border: 3px solid #83B3D3;
+  padding: 10px 9px;
+  border-radius: 10px;
+}
+
+.favorites-delete:active {
+  opacity: 15%;
 }
 
 .popover-all-favorites-button {
   border: 2px solid #64ceff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px 0;
 }
 
-.popover-icon{
-  fill: #000000;
+.popover-favorites .popover-all-favorites-button {
+  font-size: 16px;
 }
 
 .main-container {
