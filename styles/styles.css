@@ -164,6 +164,7 @@ body {
 }
 
 .popover {
+  position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
@@ -176,6 +177,19 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  position: relative;
+}
+
+.popover::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 9px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 195px;
 }
 
 .popover-content {
