@@ -259,7 +259,7 @@
         <form class="search-dialog-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="field-group">
             <label class="search-dialog-label" for="dialog-date">Дата заезда:</label>
-            <input class="search-dialog-input field" type="text" id="dialog-date" name="dialog-date">
+            <input class="search-dialog-input field" type="text" id="dialog-date" name="dialog-date" required>
             <button class="search-date button clean" type="button">
               <svg class="calendar-icon" aria-hidden="true" focusable="false" width="15" height="15"
                 xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +287,7 @@
           </p>
           <p class="field-group">
             <label class="search" for="dialog-date">Дата выезда:</label>
-            <input class="dialog-form-field field" type="text" id="dialog-date" name="dialog-date">
+            <input class="dialog-form-field field" type="text" id="dialog-date" name="dialog-date" required>
             <button class="search-date button clean" type="button">
               <svg class="calendar-icon" aria-hidden="true" focusable="false" width="15" height="15"
                 xmlns="http://www.w3.org/2000/svg">
@@ -313,21 +313,29 @@
               <span class="visually-hidden">Календарь</span>
             </button>
           </p>
-          <p class="field-group">
-            <label class="search" for="dialog-date">Взрослые:</label>
-            <input class="dialog-form-field field" type="text" id="dialog-date" name="dialog-date">
-          </p>
+          <div class="half-width">
+            <p class="field-group">
+              <label class="amount" for="dialog-date">Взрослые:</label>
+              <input class="dialog-form-field field" type="number" id="amount" name="amount" min="1" max="20">
+            </p>
 
-          <p class="field-group">
-            <span class="form-label-icon">
-              <label class="search" for="dialog-date"> Дети:</label>
-              <button class="info button clean" type="button">
-                <div class="info-icon"></div>
-                <span class="visually-hidden">Посмотреть дополнительную информацию</span>
-              </button>
-              <input class="dialog-form-field field" type="text" id="dialog-date" name="dialog-date">
-            </span>
-          </p>
+            <p class="field-group">
+              <span class="form-label-icon">
+                <label class="amount" for="dialog-date"> Дети:</label>
+                <button class="info button clean" type="button">
+                  <svg class="info-icon" aria-hidden="true" focusable="false" width="1" height="9"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                      <path d="M0 9H1L1 3H0L0 9Z" />
+                      <path d="M1 0H0V1H1V0Z" />
+                    </g>
+                  </svg>
+                  <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+                </button>
+                <input class="dialog-form-field field" type="number" id="amount" name="amount" min="1" max="20">
+              </span>
+            </p>
+          </div>
           <button class="button btn-search clean" type="submit">Найти</button>
         </form>
       </section>
