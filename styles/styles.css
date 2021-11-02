@@ -853,12 +853,18 @@ ul .advantage-item-title {
   border: 2px solid #35035f;
 }
 
+.search-dialog-label, .amount {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
 .field-group {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 40px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .search-date {
@@ -874,15 +880,15 @@ ul .advantage-item-title {
   position: relative;
 }
 
-.half-width{
+.half-width {
   display: flex;
   flex-direction: row;
 }
 
 .info {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 40px;
   width: 25px;
   height: 25px;
   background-color: #83B3D3;
@@ -895,6 +901,12 @@ ul .advantage-item-title {
 
 .info-icon {
   fill: #FFFFFF;
+}
+
+.btn-search {
+  background-color: #83B3D3;
+  line-height: 40px;
+  border-radius: 10px;
 }
 
 .newsletter--with-background {
