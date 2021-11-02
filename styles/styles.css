@@ -171,6 +171,10 @@ body {
   top: 40px;
 }
 
+.popover-open {
+  display: block;
+}
+
 .popover-favorites {
   box-sizing: border-box;
   width: 400px;
@@ -181,6 +185,7 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  display: none;
 }
 
 .popover-favorites::before {
@@ -771,6 +776,74 @@ ul .advantage-item-title {
 
 .htmlacademy-link:focus .htmlacademy-link-image {
   fill: #756257;
+}
+
+.modal-container {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 242, 242, 0.8);
+  border: 2px solid #000000;
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  padding: 54px 70px 70px 70px;
+  background-color: #FFFFFF;
+  border: 2px solid #1976b4;
+}
+
+.modal-auth {
+  width: 715px;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 53px;
+  height: 53px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #e62c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-close-button::before, .modal-close-button::after {
+  position: absolute;
+  width: 17px;
+  height: 2px;
+  background-color: #000000;
+  content: "";
+}
+
+.modal-close-button::before {
+  transform: rotate(45deg);
+}
+
+.modal-close-button::after {
+  transform: rotate(-45deg);
+}
+
+.modal-content {
+  border: 2px solid #069e64;
+}
+
+.modal-title {
+  margin-bottom: 42px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  border: 2px solid #e6ff03;
 }
 
 .newsletter--with-background {
