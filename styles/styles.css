@@ -165,9 +165,13 @@ body {
 
 .popover {
   position: absolute;
-  top: 0;
-  right: 0;
   z-index: 1;
+  transform: translateX(-50%);
+  left: 14px;
+  top: 40px;
+}
+
+.popover-favorites {
   box-sizing: border-box;
   width: 400px;
   color: #000000;
@@ -179,7 +183,19 @@ body {
   border-radius: 20px;
 }
 
-.popover::after {
+.popover-favorites::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 9px solid #E5E5E5;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -9px;
+  left: 195px;
+}
+
+.popover-favorites::after {
   content: "";
   position: absolute;
   width: 0;
