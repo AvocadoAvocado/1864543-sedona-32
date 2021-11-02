@@ -780,7 +780,7 @@ ul .advantage-item-title {
 
 .modal-container {
   z-index: 10;
-  position: fixed;
+ /* position: fixed;*/
   top: 0;
   left: 0;
   display: flex;
@@ -848,6 +848,53 @@ ul .advantage-item-title {
 
 .search-dialog-form {
   border: 2px solid #35035f;
+}
+
+.search-date {
+  background-color: transparent;
+}
+
+.calendar-icon {
+  fill: black;
+  opacity: 30%;
+}
+
+.form-label-icon {
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #83B3D3;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-icon::before {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: #ffffff;
+  content: "";
+}
+
+.info-icon::after {
+  position: absolute;
+  width: 6px;
+  height: 1px;
+  background-color: #ffffff;
+  content: "";
+}
+
+.info-icon::after {
+  transform: rotate(90deg);
 }
 
 .newsletter--with-background {
