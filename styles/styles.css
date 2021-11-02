@@ -833,17 +833,21 @@ ul .advantage-item-title {
   transform: rotate(-45deg);
 }
 
-.modal-content {
+.search-dialog {
   border: 2px solid #069e64;
 }
 
-.modal-title {
+.dialog-title {
   margin-bottom: 42px;
   font-size: 30px;
   line-height: 40px;
   color: #000000;
   text-transform: uppercase;
   border: 2px solid #e6ff03;
+}
+
+.search-dialog-form {
+  border: 2px solid #35035f;
 }
 
 .newsletter--with-background {

@@ -254,8 +254,20 @@
       <button class="modal-close-button button clean" type="button">
         <span class="visually-hidden">Закрыть</span>
       </button>
-      <section class="modal-content">
-        <h2 class="modal-title clean">Поиск гостиницы в Седоне</h2>
+      <section class="search-dialog">
+        <h2 class="dialog-title clean">Поиск гостиницы в Седоне</h2>
+        <form class="search-dialog-form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="field-group">
+            <label class="search-dialog-label" for="auth-date">Дата заезда:</label>
+            <input class="search-dialog-input field" type="text" id="auth-date" name="auth-date"
+              placeholder="27 апреля 2020">
+          </p>
+          <p class="field-group">
+            <label class="search" for="auth-date">Дата выезда:</label>
+            <input class="auth-form-field field" type="text" id="auth-date" name="auth-date"
+              placeholder="1 сентября 2021">
+          </p>
+        </form>
       </section>
     </div>
   </div>
