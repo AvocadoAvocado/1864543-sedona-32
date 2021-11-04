@@ -10,8 +10,7 @@
 <body>
   <div class="page-container">
     <header class="page-header">
-      <img class="page-header-logo" src="images/header/page-logo.svg" alt="Логотип городка Седона" width="138"
-        height="70">
+      <img class="page-header-logo" src="images/header/page-logo.svg" alt="Логотип городка Седона" width="138" height="70">
       <div class="header-container">
         <nav class="navigation">
           <ul class="navigation-list clean">
@@ -136,20 +135,24 @@
                   <div class="range-controls">
                     <div class="range-wrapper-inputs">
                       <label class="catalog-filter-label min-price-label">
-                        <input class="catalog-filter-input clean" type="text" name="min-price" value="0" size="4">
+                        <input class="catalog-filter-input clean" type="text" name="min-price" value="0" size="8">
                       </label>
 
                       <label class="catalog-filter-label">
-                        <input class="catalog-filter-input clean" type="text" name="max-price" value="9000" size="4">
+                        <input class="catalog-filter-input clean" type="text" name="max-price" value="9000" size="8">
                       </label>
                     </div>
 
                     <div class="range-scale">
                       <div class="range-bar" style="left: 0px; width: 166px">
-                        <div class="range-toggle toggle-min"><span class="visually-hidden">Изменить минимальную
-                            цену.</span></div>
-                        <div class="range-toggle toggle-max"><span class="visually-hidden">Изменить максимальную
-                            цену.</span></div>
+                        <button class="range-toggle toggle-min clean" type="button"><span
+                            class="visually-hidden">Изменить
+                            минимальную
+                            цену.</span></button>
+                        <button class="range-toggle toggle-max clean" type="button"><span
+                            class="visually-hidden">Изменить
+                            максимальную
+                            цену.</span></button>
                       </div>
                     </div>
                   </div>
@@ -172,7 +175,7 @@
               <label class="visually-hidden">Сортировка</label>
               <select class="select-control">
                 <option value="popular">Сначала популярные</option>
-                <option value="cheap">Сначала дешёвые</option>
+                <option value="cheap" selected>Сначала дешёвые</option>
                 <option value="expensive">Сначала дорогие</option>
               </select>
             </div>
@@ -270,7 +273,7 @@
                     <span class="hotel-card-type">Апартаменты</span>
                     <span class="hotel-card-price">От 2000 ₽</span>
                     <a href="#" class="button-more clean">подробнее</a>
-                    <button class="button-favorites clean" type="button">В избранное</button>
+                    <button class="button-favorites--active clean" type="button">В избранное</button>
                   </div>
                 </div>
                 <div class="hotel-rating">
@@ -311,7 +314,7 @@
         <div class="pagination-container">
           <ul class="pagination clean">
             <li class="pagination-item">
-              <a class="pagination-link" href="#">1</a>
+              <a class="pagination-link--active" href="#">1</a>
             </li>
 
             <li class="pagination-item">
@@ -341,7 +344,7 @@
               <option class="box-control-number clean" value="1">1</option>
               <option class="box-control-number clean" value="2">2</option>
               <option class="box-control-number clean" value="3">3</option>
-              <option class="box-control-number clean" value="4">4</option>
+              <option class="box-control-number clean" value="4" selected>4</option>
             </select>
           </div>
         </div>

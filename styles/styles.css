@@ -136,6 +136,24 @@ body {
   border-radius: 10px;
   padding: 6px 6px;
   box-sizing: border-box;
+  position: relative;
+  display: flex;
+}
+
+.link-favorites::after {
+  position: absolute;
+  bottom: 20px;
+  left: 58%;
+  width: 19px;
+  height: 19px;
+  background-color: #7DB54F;
+  color: #ffffff;
+  content: "12";
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
 }
 
 .container-user-link:focus .navigation-icon {
@@ -1059,6 +1077,10 @@ ul .advantage-item-title {
   border: 3px solid #000000;
 }
 
+.field:invalid {
+  border: 2px solid #FF5757;
+}
+
 .content-container {
   padding-top: 50px;
   display: flex;
@@ -1145,6 +1167,33 @@ ul .advantage-item-title {
 }
 
 .button-favorites:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-favorites--active {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+  padding: 7px 0;
+  border-radius: 4px;
+  border: 3px solid transparent;
+}
+
+.button-favorites--active:hover {
+  background-color: #6C9E42;
+}
+
+.button-favorites--active:focus {
+  outline: none;
+  background-color: #6C9E42;
+  border: 3px solid #756257;
+}
+
+.button-favorites--active:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1546,12 +1595,21 @@ ul .advantage-item-title {
 
 .range-toggle {
   position: absolute;
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 20px;
   background: #FFFFFF;
   border-radius: 5px;
   cursor: pointer;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
+}
+
+.range-toggle:focus {
+  outline: none;
+  border: 2px solid #83B3D3;
+}
+
+.range-toggle:active {
+  border: 2px solid #83B3D3;
 }
 
 .range-toggle:active, .range-toggle:focus {
@@ -1571,13 +1629,12 @@ ul .advantage-item-title {
 .range-wrapper-inputs {
   display: flex;
   justify-content: center;
-  border: 2px solid #FFFFFF;
-  border-radius: 4px;
 }
 
 .catalog-filter-label {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .range-input {
@@ -1622,16 +1679,38 @@ ul .advantage-item-title {
   background-color: transparent;
   color: #FFFFFF;
   outline: none;
+  border: 2px solid #FFFFFF;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.catalog-filter-input:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.catalog-filter-input:focus {
+  outline: none;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 0 2px #81B3D2, 0 0 0 2px #81B3D2 inset;
+}
+
+.catalog-filter-input:active {
+  background-color: #756257;
 }
 
 .catalog-filter-label::after {
   content: "до";
   color: rgba(255, 255, 255, 0.30);
   margin: 0 17px;
+  position: absolute;
+  right: 0;
 }
 
-.min-price-label {
-  border-right: 2px solid #FFFFFF;
+.min-price-label .catalog-filter-input {
+  border-right: none;
+  border-radius: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .min-price-label::after {
@@ -1726,6 +1805,22 @@ ul .advantage-item-title {
   border-radius: 4px;
   color: #FFFFFF;
   background-color: #83B3D3;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  width: 55px;
+  height: 55px;
+  border: 3px solid transparent;
+}
+
+.pagination-link--active {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #F2F2F2;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
