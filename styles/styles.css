@@ -142,7 +142,7 @@ body {
 
 .link-favorites::after {
   position: absolute;
-  bottom: 20px;
+  bottom: 16px;
   left: 58%;
   width: 19px;
   height: 19px;
@@ -154,6 +154,10 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 10px;
+}
+
+.link-favorites:active::after {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .container-user-link:focus .navigation-icon {
@@ -383,7 +387,6 @@ body {
 .btn-want:active {
   background-color: #615048;
   color: rgba(255, 255, 255, 0.30);
-  border: none;
 }
 
 .button-search {
@@ -1011,6 +1014,7 @@ ul .advantage-item-title {
 
 .popup-open {
   display: block;
+  display: none;
 }
 
 .popup-tip {
@@ -1863,6 +1867,10 @@ ul .advantage-item-title {
   appearance: none;
 }
 
+.select-control {
+  -moz-appearance: none;
+}
+
 .select-control:hover {
   border: 2px solid #83B3D3;
 }
@@ -1899,6 +1907,14 @@ ul .advantage-item-title {
   background-repeat: no-repeat;
   background-position: right 21px center;
   appearance: none;
+}
+
+.box-control:focus {
+  outline: none;
+}
+
+.box-control {
+  -moz-appearance: none;
 }
 
 .search-dialog-input[type="date"]::-webkit-calendar-picker-indicator {
