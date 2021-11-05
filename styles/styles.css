@@ -906,6 +906,7 @@ ul .advantage-item-title {
   justify-content: space-between;
   margin-bottom: 40px;
   align-items: center;
+  position: relative;
 }
 
 .search-date {
@@ -933,6 +934,11 @@ ul .advantage-item-title {
   font-size: 18px;
   line-height: 40px;
   border: 3px solid transparent;
+}
+
+.search-dialog-input:focus {
+  outline: none;
+  border: 3px solid #83B3D3;
 }
 
 .search-dialog-input:hover {
@@ -1918,6 +1924,15 @@ ul .advantage-item-title {
 }
 
 .search-dialog-input[type="date"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.box-calendar-icon {
+  position: absolute;
   background-image: url(../images/modal/calendar.svg);
   opacity: 30%;
+  width: 15px;
+  height: 15px;
+  right: 0;
+  margin: 17px;
 }
