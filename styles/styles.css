@@ -925,6 +925,7 @@ ul .advantage-item-title {
 }
 
 .search-dialog-input {
+  position: relative;
   padding: 9px 19px;
   background-color: #F2F2F2;
   border-radius: 4px;
@@ -934,11 +935,6 @@ ul .advantage-item-title {
   font-size: 18px;
   line-height: 40px;
   border: 3px solid transparent;
-}
-
-.search-dialog-input:focus {
-  outline: none;
-  border: 3px solid #83B3D3;
 }
 
 .search-dialog-input:hover {
@@ -953,7 +949,24 @@ ul .advantage-item-title {
 
 .search-dialog-input:active {
   background-color: #FFFFFF;
-  border: 2px solid #000000;
+  box-shadow: inset 0 0 0 2px#000000;
+  opacity: 100%;
+}
+
+.search-dialog-input:valid+.box-status::before {
+  content: "Сообщение об успехе";
+  color: #333333;
+  position: absolute;
+  top: 70px;
+  right: 239px;
+}
+
+.search-dialog-input:invalid+.box-status::after {
+  content: "Сообщение об ошибке";
+  color: #FF5757;
+  position: absolute;
+  top: 70px;
+  right: 239px;
 }
 
 .info {
@@ -1921,10 +1934,6 @@ ul .advantage-item-title {
 
 .box-control {
   -moz-appearance: none;
-}
-
-.search-dialog-input[type="date"]::-webkit-calendar-picker-indicator {
-  background: none;
 }
 
 .box-calendar-icon {
