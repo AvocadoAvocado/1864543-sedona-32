@@ -157,6 +157,7 @@ body {
 }
 
 .link-favorites:active::after {
+  content: "";
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -199,6 +200,7 @@ body {
 }
 
 .popover-favorites {
+  position: absolute;
   box-sizing: border-box;
   width: 400px;
   color: #000000;
@@ -208,6 +210,8 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  top: 47px;
+  left: 50%;
   display: none;
 }
 
@@ -220,7 +224,8 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   top: -9px;
-  left: 195px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .popover-favorites::after {
@@ -228,11 +233,12 @@ body {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 9px solid #ffffff;
+  border-bottom: 9px solid #FFFFFF;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   top: -8px;
-  left: 195px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .popover-content {
@@ -580,7 +586,7 @@ ul .advantage-item-title {
 }
 
 .item-icon::before {
-  content: '';
+  content: "";
   background-repeat: no-repeat;
   position: absolute;
   display: block;
@@ -599,14 +605,17 @@ ul .advantage-item-title {
 
 .icon-house::before {
   background-image: url("../images/item-hotel.svg");
+  content: "";
 }
 
 .icon-present::before {
   background-image: url("../images/item-present.svg");
+  content: "";
 }
 
 .icon-food::before {
   background-image: url("../images/item-food.svg");
+  content: "";
 }
 
 .advantages-item-food {
@@ -862,10 +871,12 @@ ul .advantage-item-title {
 
 .modal-close-button::before {
   transform: rotate(45deg);
+  content: "";
 }
 
 .modal-close-button::after {
   transform: rotate(-45deg);
+  content: "";
 }
 
 .search-dialog {
@@ -914,7 +925,7 @@ ul .advantage-item-title {
 }
 
 .calendar-icon {
-  fill: black;
+  fill: #000000;
   opacity: 30%;
 }
 
@@ -978,8 +989,6 @@ ul .advantage-item-title {
   box-shadow: inset 0 0 0 2px#000000;
   opacity: 100%;
 }
-
-.box-status {}
 
 .status-invalid {
   color: #FF5757;
