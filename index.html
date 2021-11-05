@@ -249,7 +249,7 @@
       </div>
     </footer>
   </div>
-  <div class="modal-container  modal-container-close">
+  <div class="modal-container  ">
     <div class="modal modal-dialog">
       <section class="search-dialog">
         <div class="search-dialog-header">
@@ -276,12 +276,14 @@
           <div class="half-width">
             <p class="field-group clean">
               <label class="amount" for="dialog-date">Взрослые:</label>
-              <input class="search-dialog-input form-amount clean" type="number" id="amount" name="amount" min="1"
+              <button class="btn-control clean" type="button">-</button>
+              <input class="search-dialog-input form-amount clean" type="text" id="amount" name="amount" min="1"
                 max="20">
+              <button class="btn-control clean" type="button">+</button>
             </p>
 
             <p class="field-group clean">
-              <label class="amount amount-children clean" for="dialog-date"> Дети:</label>
+              <label class="amount amount-children clean" for="dialog-date"><span class="amount-children-title">Дети:</span></label>
               <button class="info button clean" type="button">
                 <svg class="info-icon" aria-hidden="true" focusable="false" width="1" height="9"
                   xmlns="http://www.w3.org/2000/svg">
@@ -296,8 +298,10 @@
                     18 лет. Дети до 6 лет размещаются бесплатно.</p>
                 </div>
               </button>
-              <input class="search-dialog-input form-amount clean" type="number" id="amount" name="amount" min="1"
+              <button class="btn-control clean" type="button">-</button>
+              <input class="search-dialog-input form-amount clean" type="text" id="amount" name="amount" min="1"
                 max="20">
+              <button class="btn-control clean" type="button">+</button>
             </p>
           </div>
           <button class="button btn-search clean" type="submit">Найти</button>

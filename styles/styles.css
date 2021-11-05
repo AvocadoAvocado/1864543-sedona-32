@@ -921,7 +921,7 @@ ul .advantage-item-title {
 .half-width {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 .search-dialog-input {
@@ -935,6 +935,14 @@ ul .advantage-item-title {
   font-size: 18px;
   line-height: 40px;
   border: 3px solid transparent;
+}
+
+.btn-control {
+  background-color: transparent;
+  font-size: 38px;
+  opacity: 30%;
+  margin: -34px;
+  z-index: 2;
 }
 
 .search-dialog-input:hover {
