@@ -893,7 +893,7 @@ ul .advantage-item-title {
 }
 
 .form-amount {
-  width: 130px;
+  text-align: center;
 }
 
 .amount-children {
@@ -921,28 +921,46 @@ ul .advantage-item-title {
 .half-width {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .search-dialog-input {
   position: relative;
-  padding: 9px 19px;
   background-color: #F2F2F2;
   border-radius: 4px;
   flex-grow: 1;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 44px;
   border: 3px solid transparent;
+  padding: 0 19px;
 }
 
 .btn-control {
+  position: absolute;
   background-color: transparent;
   font-size: 38px;
   opacity: 30%;
-  margin: -34px;
   z-index: 2;
+}
+
+.control-dec {
+  left: 10px;
+}
+
+.control-inc {
+  right: 10px;
+}
+
+.form-amount-children {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.group-form-amount {
+  position: relative;
 }
 
 .search-dialog-input:hover {
@@ -961,20 +979,20 @@ ul .advantage-item-title {
   opacity: 100%;
 }
 
-.search-dialog-input:valid+.box-status::before {
-  content: "Сообщение об успехе";
-  color: #333333;
-  position: absolute;
-  top: 70px;
-  right: 239px;
-}
+.box-status {}
 
-.search-dialog-input:invalid+.box-status::after {
-  content: "Сообщение об ошибке";
+.status-invalid {
   color: #FF5757;
   position: absolute;
-  top: 70px;
-  right: 239px;
+  top: 56px;
+  right: 102px;
+}
+
+.status-valid {
+  color: #333333;
+  position: absolute;
+  top: 56px;
+  left: 159px;
 }
 
 .info {
@@ -989,6 +1007,7 @@ ul .advantage-item-title {
   align-items: center;
   border: 3px solid transparent;
   outline: none;
+  margin: 0 15px;
 }
 
 .info:hover {
