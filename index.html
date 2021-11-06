@@ -10,8 +10,7 @@
 <body>
   <div class="page-container">
     <header class="page-header">
-      <img class="page-header-logo" src="images/header/page-logo.svg" alt="Логотип городка Седона" width="138"
-        height="70">
+      <img class="page-header-logo" src="images/header/page-logo.svg" alt="Логотип городка Седона" width="138" height="70">
       <div class="header-container">
         <nav class="navigation">
           <ul class="navigation-list clean">
@@ -263,17 +262,21 @@
         <form class="search-dialog-form" action="#" method="post">
           <fieldset class="field-group box-calendar clean">
             <label class="search-dialog-label" for="dialog-date">Дата заезда:</label>
-            <input class="search-dialog-input clean" type="text" id="dialog-date" name="dialog-date"
-              placeholder="Укажите дату" required required pattern="[]">
-            <span class="box-status status-invalid">Мы не можем отправить вас в прошлое.</span>
-            <span class="box-calendar-icon"></span>
+            <div class="search-dialog-box">
+              <input class="search-dialog-input clean" type="text" id="dialog-date" name="dialog-date"
+                placeholder="Укажите дату" required required pattern="[0-9]{2}\.[0-9]{2}\.[0-9]{4}">
+              <span class="box-status status-invalid">Мы не можем отправить вас в прошлое.</span>
+              <span class="box-calendar-icon"></span>
+            </div>
           </fieldset>
           <fieldset class="field-group clean">
             <label class="search-dialog-label" for="dialog-date">Дата выезда:</label>
-            <input class="search-dialog-input clean" type="text" id="dialog-date" name="dialog-date"
-              placeholder="Укажите дату" required required pattern="[0-9]{2}\.[0-9]{2}\.[0-9]{4}">
-            <span class="box-status status-valid">На эти даты есть свободные номера. Пока есть.</span>
-            <span class="box-calendar-icon"></span>
+            <div class="search-dialog-box">
+              <input class="search-dialog-input clean" type="text" id="dialog-date" name="dialog-date"
+                placeholder="Укажите дату" required required pattern="[0-9]{2}\.[0-9]{2}\.[0-9]{4}">
+              <span class="box-status status-valid">На эти даты есть свободные номера. Пока есть.</span>
+              <span class="box-calendar-icon"></span>
+            </div>
           </fieldset>
           <div class="half-width">
             <p class="field-group clean">
