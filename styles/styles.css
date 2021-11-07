@@ -66,7 +66,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 6;
-  padding-left: 49px;
+  padding-left: 56px;
   padding-right: 72px;
 }
 
@@ -77,7 +77,7 @@ body {
 .navigation-link {
   font-family: "PT Sans", "Montserrat", sans-serif;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 27px;
   font-weight: 700;
   color: inherit;
   background-color: inherit;
@@ -116,7 +116,7 @@ body {
 }
 
 .navigation-item {
-  margin: -1px 16px;
+  margin: -1px 18px -1px 15px;
   padding: 19px 0;
 }
 
@@ -128,6 +128,7 @@ body {
 
 .container-user-icon {
   position: relative;
+  margin: 1px 3px 0px -1px;
 }
 
 .container-user-link {
@@ -374,7 +375,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin-left: 19px;
-  padding: 8px 27px;
+  padding: 6px 32px;
   border-radius: 4px;
   box-sizing: border-box;
   border: 3px solid transparent;
@@ -498,7 +499,7 @@ body {
   margin: 0 auto;
   text-align: center;
   min-width: 720px;
-  padding-top: 63px;
+  padding-top: 10px;
   padding-bottom: 79px;
 }
 
@@ -514,7 +515,7 @@ body {
   font-size: 22px;
   line-height: 36px;
   color: #333333;
-  margin-top: 23px;
+  margin-top: 34px;
 }
 
 .advantages-item--wide {
@@ -535,6 +536,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  margin-top: -74px;
 }
 
 .advantages-picture {
@@ -589,8 +591,6 @@ ul .advantage-item-title {
 }
 
 .advantages-item-number {
-  padding-top: 25px;
-  padding-bottom: 26px;
   display: block;
 }
 
@@ -1320,6 +1320,7 @@ ul .advantage-item-title {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: 3px solid transparent;
+  background-color: #83B3D3;
 }
 
 .newsletter-button:hover {
@@ -1395,7 +1396,6 @@ ul .advantage-item-title {
 .hotel-card-rating {
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
   text-transform: uppercase;
   padding: 9px 15px;
   border-radius: 4px;
@@ -1794,7 +1794,7 @@ ul .advantage-item-title {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 10px 25px;
+  padding: 11px 32px;
   border: 3px solid transparent;
   box-sizing: border-box;
 }
@@ -1931,7 +1931,6 @@ ul .advantage-item-title {
   width: 100%;
   font-size: 18px;
   line-height: 23px;
-  font-weight: 400;
   color: #333333;
   padding: 12px 127px 12px 19px;
   border: 2px solid #E5E5E5;
