@@ -117,7 +117,7 @@ body {
 }
 
 .navigation-item {
-  margin: 0 16px;
+  margin: -1px 16px;
   padding: 19px 0;
 }
 
@@ -559,7 +559,7 @@ ul .advantage-item-title {
 .advantages-item-text {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -713,7 +713,8 @@ ul .advantage-item-title {
   line-height: 40px;
   font-weight: 400;
   color: inherit;
-  padding: 10px 15px;
+  max-width: 550px;
+  text-align: center;
 }
 
 .footer-contacts-phone:hover {
@@ -1013,7 +1014,7 @@ ul .advantage-item-title {
   align-items: center;
   border: 3px solid transparent;
   outline: none;
-  margin: 0 15px;
+  margin-right: 18px;
 }
 
 .info:hover {
@@ -1211,6 +1212,7 @@ ul .advantage-item-title {
   padding: 7px 0;
   border-radius: 4px;
   border: 3px solid transparent;
+  width: 160px;
 }
 
 .button-favorites:hover {
@@ -1238,6 +1240,7 @@ ul .advantage-item-title {
   padding: 7px 0;
   border-radius: 4px;
   border: 3px solid transparent;
+  width: 160px;
 }
 
 .button-favorites--active:hover {
@@ -1415,7 +1418,6 @@ ul .advantage-item-title {
 .search-results-title {
   font-size: 30px;
   line-height: 39px;
-  padding-bottom: 45px;
 }
 
 .inner-content-title {
@@ -1557,7 +1559,9 @@ ul .advantage-item-title {
 .sorting-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
 }
 
 .hotel-list:first-child {
@@ -1588,11 +1592,11 @@ ul .advantage-item-title {
 
 .hotel-card-column-details {
   display: grid;
-  grid-template-columns: 151px 160px;
-  grid-template-rows: 23px;
-  column-gap: 8px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2px;
   row-gap: 22px;
-  align-items: end;
+  align-items: stretch;
+  justify-items: stretch;
 }
 
 .hotel-rating {
@@ -1838,6 +1842,7 @@ ul .advantage-item-title {
   padding: 6px 0;
   border-radius: 4px;
   border: 3px solid transparent;
+  width: 151px;
 }
 
 .button-more:hover {
@@ -1865,8 +1870,9 @@ ul .advantage-item-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  width: 55px;
-  height: 55px;
+  min-width: 55px;
+  min-height: 55px;
+  text-align: center;
   border: 3px solid transparent;
 }
 
@@ -1881,8 +1887,9 @@ ul .advantage-item-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  width: 55px;
-  height: 55px;
+  min-width: 55px;
+  min-height: 55px;
+  text-align: center;
   border: 3px solid transparent;
 }
 
@@ -1899,6 +1906,13 @@ ul .advantage-item-title {
   color: rgba(255, 255, 255, 0.30);
 }
 
+.hotel-perpage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .select {
   position: relative;
   display: flex;
@@ -1906,6 +1920,7 @@ ul .advantage-item-title {
 }
 
 .select-control {
+  width: 100%;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
@@ -1917,7 +1932,6 @@ ul .advantage-item-title {
   background-repeat: no-repeat;
   background-position: right 21px center;
   appearance: none;
-  max-width: 287px;
 }
 
 .select-control {
@@ -1960,6 +1974,7 @@ ul .advantage-item-title {
   background-repeat: no-repeat;
   background-position: right 21px center;
   appearance: none;
+  max-width: 195px;
 }
 
 .box-control:focus {
