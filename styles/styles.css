@@ -81,7 +81,6 @@ body {
   font-weight: 700;
   color: inherit;
   background-color: inherit;
-  font-style: normal;
   border: 3px solid transparent;
   border-radius: 10px;
   padding: 6px 12px;
@@ -565,6 +564,7 @@ ul .advantage-item-title {
 }
 
 .advantages-item {
+  padding: 108px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -710,8 +710,6 @@ ul .advantage-item-title {
 
 .footer-contacts-phone {
   font-size: 40px;
-  line-height: 40px;
-  font-weight: 400;
   color: inherit;
   max-width: 550px;
   text-align: center;
@@ -1117,7 +1115,7 @@ ul .advantage-item-title {
   border-bottom-left-radius: 10px;
   background-color: #F2F2F2;
   border: 3px solid transparent;
-  padding: 22px;
+  padding: 0 22px;
 }
 
 .field:hover {
@@ -1160,6 +1158,8 @@ ul .advantage-item-title {
 
 .list-mode {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .list-mode-icon:first-child {
@@ -1262,11 +1262,13 @@ ul .advantage-item-title {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding-top: 30px;
 }
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-items: center;
@@ -1277,6 +1279,7 @@ ul .advantage-item-title {
 .pagination-item {
   display: flex;
   padding-right: 7px;
+  margin-bottom: 5px;
 }
 
 .pagination-show-more {
@@ -1313,7 +1316,7 @@ ul .advantage-item-title {
 
 .newsletter-button {
   width: 200px;
-  padding: 22px;
+  padding: 14px 22px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: 3px solid transparent;
@@ -1428,13 +1431,12 @@ ul .advantage-item-title {
 
 .breadcrumbs {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
 .breadcrumbs-link {
   font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
   text-transform: none;
   color: #FFFFFF;
   box-sizing: border-box;
@@ -1442,10 +1444,7 @@ ul .advantage-item-title {
   border: 3px solid transparent;
   border-radius: 4px;
   padding: 3px 8px;
-}
-
-.breadcrumbs-item {
-  margin-left: 10px;
+  margin-left: -10px;
 }
 
 .breadcrumbs-link-icon {
@@ -1463,6 +1462,14 @@ ul .advantage-item-title {
 .breadcrumbs-link:focus {
   outline: none;
   border: 3px solid #83B3D3;
+}
+
+.breadcrumbs-item {
+  padding-right: 10px;
+}
+
+.breadcrumbs-item:first-child {
+  padding-right: 0;
 }
 
 .catalog-filter {
@@ -1500,18 +1507,19 @@ ul .advantage-item-title {
 
 .catalog-filter-item {
   padding-bottom: 13px;
+  line-height: 23px;
 }
 
 .catalog-filter-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  text-transform: none;
   padding-bottom: 30px;
 }
 
 .catalog-filter-controls {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .catalog-filter-group-wide {
