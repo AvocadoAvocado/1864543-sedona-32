@@ -1143,7 +1143,7 @@ ul .advantage-item-title {
 }
 
 .content-container {
-  padding-top: 50px;
+  padding-top: 43px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -1202,8 +1202,8 @@ ul .advantage-item-title {
   background-color: #756257;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  padding-top: 35px;
-  padding-bottom: 56px;
+  padding-top: 32px;
+  padding-bottom: 75px;
 }
 
 .button-favorites {
@@ -1295,7 +1295,7 @@ ul .advantage-item-title {
   background-color: #83B3D3;
   display: block;
   margin: 0 auto;
-  padding: 10px 156px;
+  padding: 10px 237px;
   border-radius: 4px;
   border: 3px solid transparent;
 }
@@ -1374,7 +1374,7 @@ ul .advantage-item-title {
   background-color: #FFFFFF;
   text-decoration: none;
   font-style: normal;
-  padding: 5px 15px;
+  padding: 5px 15px 1px;
   margin-left: -17px;
   margin-top: -12px;
   border: 3px solid transparent;
@@ -1402,7 +1402,7 @@ ul .advantage-item-title {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  padding: 9px 15px;
+  padding: 10px 32px;
   border-radius: 4px;
   background-color: #F2F2F2;
 }
@@ -1426,12 +1426,13 @@ ul .advantage-item-title {
 .search-results-title {
   font-size: 30px;
   line-height: 39px;
+  text-transform: uppercase;
+  margin-right: 112px;
 }
 
 .inner-content-title {
   font-size: 60px;
   line-height: 78px;
-  padding-bottom: 5px;
 }
 
 .breadcrumbs {
@@ -1506,8 +1507,8 @@ ul .advantage-item-title {
   margin-left: 81px;
 }
 
-.container-filter-col {
-  padding-top: 45px;
+.catalog-filter {
+  padding-top: 43px;
 }
 
 .catalog-filter-item {
@@ -1582,7 +1583,7 @@ ul .advantage-item-title {
 }
 
 .hotel-list {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .hotel-card {
@@ -1657,7 +1658,7 @@ ul .advantage-item-title {
 .range-scale {
   position: relative;
   height: 4px;
-  margin-top: 28px;
+  margin-top: 30px;
   background-color: rgba(255, 255, 255, 0.30);
 }
 
@@ -1747,7 +1748,7 @@ ul .advantage-item-title {
 }
 
 .catalog-filter-input {
-  padding: 14px 17px;
+  padding: 11px 17px;
   font-size: 18px;
   font-family: "PT Sans", "Montserrat", sans-serif;
   background-color: transparent;
@@ -1883,8 +1884,8 @@ ul .advantage-item-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  min-width: 55px;
-  min-height: 55px;
+  min-width: 50px;
+  min-height: 50px;
   text-align: center;
   border: 3px solid transparent;
 }
@@ -1900,8 +1901,8 @@ ul .advantage-item-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  min-width: 55px;
-  min-height: 55px;
+  min-width: 50px;
+  min-height: 50px;
   text-align: center;
   border: 3px solid transparent;
 }
@@ -1937,7 +1938,7 @@ ul .advantage-item-title {
   font-size: 18px;
   line-height: 23px;
   color: #333333;
-  padding: 12px 127px 12px 19px;
+  padding: 11px 82px 11px 20px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   background-image: url(../images/catalog-icon/dropdown.svg);
@@ -1966,11 +1967,11 @@ ul .advantage-item-title {
 
 .newsletter-catalog {
   text-align: center;
-  padding: 89px 0 138px 0;
+  padding: 84px 0 138px 0;
 }
 
 .text-catalog {
-  padding-bottom: 26px;
+  padding-bottom: 52px;
 }
 
 .box-control {
