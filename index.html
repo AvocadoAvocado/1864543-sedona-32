@@ -267,7 +267,7 @@
       <section class="search-dialog">
         <div class="search-dialog-header">
           <h2 class="dialog-title clean">Поиск гостиницы в Седоне</h2>
-          <button class="modal-close-button button clean" type="button">
+          <button class="modal-close-button clean" type="button">
             <span class="visually-hidden">Закрыть</span>
           </button>
         </div>
@@ -294,10 +294,20 @@
             <p class="field-group clean">
               <label class="amount amount-adult clean" for="amount-adult">Взрослые:</label>
               <span class="group-form-amount">
-                <button class="btn-control control-dec clean" type="button">-</button>
+                <button class="btn-control clean" type="button">
+                  <svg class="control-dec" aria-hidden="true" focusable="false" width="13" height="1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z" />
+                  </svg>
+                </button>
                 <input class="search-dialog-input form-amount clean" type="text" id="amount-adult" name="amount"
-                  size="7">
-                <button class="btn-control control-inc clean" type="button">+</button>
+                  value="2" size="7">
+                <button class="btn-control clean" type="button">
+                  <svg class="control-inc" aria-hidden="true" focusable="false" width="13" height="13"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" />
+                  </svg>
+                </button>
               </span>
             </p>
 
@@ -320,10 +330,20 @@
                 </button>
               </span>
               <span class="group-form-amount">
-                <button class="btn-control control-dec clean" type="button">-</button>
+                <button class="btn-control clean" type="button">
+                  <svg class="control-dec" aria-hidden="true" focusable="false" width="13" height="1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z" />
+                  </svg>
+                </button>
                 <input class="search-dialog-input form-amount clean" type="text" id="amount-children"
-                  name="amount-children" size="7">
-                <button class="btn-control control-inc clean" type="button">+</button>
+                  name="amount-children" value="1" size="7">
+                <button class="btn-control clean" type="button">
+                  <svg class="control-inc" aria-hidden="true" focusable="false" width="13" height="13"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" />
+                  </svg>
+                </button>
               </span>
             </p>
           </div>

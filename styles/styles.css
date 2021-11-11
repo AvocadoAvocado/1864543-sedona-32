@@ -707,6 +707,7 @@ ul .advantage-item-title {
 }
 
 .footer-contacts-phone {
+  padding: 15px;
   font-size: 40px;
   color: inherit;
   max-width: 550px;
@@ -771,7 +772,7 @@ ul .advantage-item-title {
 }
 
 .htmlacademy-link {
-  padding: 14px 23px;
+  padding: 10px;
   border: 3px solid transparent;
 }
 
@@ -832,6 +833,7 @@ ul .advantage-item-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .modal-close-button:hover {
@@ -908,8 +910,8 @@ ul .advantage-item-title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 40px;
-  align-items: center;
+  padding-bottom: 15px;
+  align-items: baseline;
   position: relative;
 }
 
@@ -945,6 +947,7 @@ ul .advantage-item-title {
   line-height: 44px;
   border: 3px solid transparent;
   padding: 0 19px;
+  margin-bottom: 5px;
 }
 
 .btn-control {
@@ -953,14 +956,33 @@ ul .advantage-item-title {
   font-size: 38px;
   opacity: 30%;
   z-index: 2;
+  border-radius: 4px;
+}
+
+.btn-control:hover {
+  opacity: 100%;
+}
+
+.btn-control:focus {
+  opacity: 100%;
+  border: 3px solid #83b3d3;
+  outline: none;
+}
+
+.btn-control:active {
+  opacity: 30%;
 }
 
 .control-dec {
-  left: 10px;
+  position: absolute;
+  left: 23px;
+  top: 26px;
 }
 
 .control-inc {
-  right: 10px;
+  position: absolute;
+  right: 23px;
+  top: 19px;
 }
 
 .form-amount-children {
@@ -1081,6 +1103,7 @@ ul .advantage-item-title {
   border-radius: 10px;
   padding: 8px 0;
   border: 3px solid #83b3d3;
+  margin-top: 14px;
 }
 
 .btn-search:hover+.btn-search:focus {
@@ -1693,6 +1716,13 @@ ul .advantage-item-title {
   border-radius: 50%;
 }
 
+.feature-input[type="radio"]:focus+.feature-mark {
+  outline: none;
+  border: 3px solid #83b3d3;
+  opacity: 60%;
+  margin: -3px;
+}
+
 .feature-input[type="radio"]:checked+.feature-mark::before {
   position: absolute;
   top: 50%;
@@ -1867,6 +1897,11 @@ ul .advantage-item-title {
   min-height: 50px;
   text-align: center;
   border: 3px solid transparent;
+}
+
+.pagination-link--active:focus {
+  outline: none;
+  border: 3px solid #756257;
 }
 
 .pagination-link:hover {
