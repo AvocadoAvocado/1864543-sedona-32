@@ -1657,7 +1657,7 @@ ul .advantage-item-title {
   position: relative;
   height: 4px;
   margin-top: 30px;
-  background-color: rgba(255, 255, 255, 0, 7);
+  background-color: #666b6f;
 }
 
 .range-bar {
