@@ -121,7 +121,7 @@ img {
 }
 
 .navigation-item {
-  margin: -1px 18px -1px 15px;
+  margin: 0 18px -1px 15px;
   padding: 19px 0;
 }
 
@@ -348,7 +348,7 @@ img {
 }
 
 .popover-all-favorites:active {
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .popover-favorites .popover-all-favorites {
@@ -400,7 +400,7 @@ img {
 
 .btn-want:active {
   background-color: #615048;
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .button-search {
@@ -417,7 +417,7 @@ img {
 
 .button-search:active {
   background-color: #615048;
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .button-search:hover {
@@ -1119,7 +1119,7 @@ ul .advantage-item-title {
   margin-top: 14px;
 }
 
-.btn-search:hover + .btn-search:focus {
+.btn-search:hover {
   background-color: #68a2ca;
 }
 
@@ -1129,7 +1129,7 @@ ul .advantage-item-title {
 }
 
 .btn-search:active {
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .newsletter--with-background {
@@ -1244,7 +1244,7 @@ ul .advantage-item-title {
   padding: 7px 0;
   border-radius: 4px;
   border: 3px solid transparent;
-  width: 160px;
+  min-width: 160px;
 }
 
 .button-favorites:hover {
@@ -1272,7 +1272,7 @@ ul .advantage-item-title {
   padding: 7px 0;
   border-radius: 4px;
   border: 3px solid transparent;
-  width: 160px;
+  min-width: 160px;
 }
 
 .button-favorites--active:hover {
@@ -1338,7 +1338,7 @@ ul .advantage-item-title {
 }
 
 .pagination-show-more:active {
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .container-show-more {
@@ -1361,7 +1361,7 @@ ul .advantage-item-title {
 
 .newsletter-button:active {
   background-color: #68a2ca;
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .newsletter-button:focus {
@@ -1572,7 +1572,6 @@ ul .advantage-item-title {
   outline: none;
   border: 3px solid #83b3d3;
   opacity: 60%;
-  margin: -3px;
 }
 
 .feature-input[type="checkbox"]:checked + .feature-mark::before {
@@ -1735,7 +1734,6 @@ ul .advantage-item-title {
   outline: none;
   border: 3px solid #83b3d3;
   opacity: 60%;
-  margin: -3px;
 }
 
 .feature-input[type="radio"]:checked + .feature-mark::before {
@@ -1782,7 +1780,7 @@ ul .advantage-item-title {
 
 .catalog-filter-label::after {
   content: "до";
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
   margin: 0 17px;
   position: absolute;
   right: 0;
@@ -1929,7 +1927,7 @@ ul .advantage-item-title {
 }
 
 .pagination-link:active {
-  color: rgba(255, 255, 255, 0, 7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .hotel-perpage {
@@ -1970,7 +1968,7 @@ ul .advantage-item-title {
 
 .select-control:active {
   border: 2px solid #e5e5e5;
-  color: rgba(51, 51, 51, 0, 7);
+  color: rgba(51, 51, 51, 0.7);
 }
 
 .newsletter-catalog {
