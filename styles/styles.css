@@ -122,7 +122,7 @@ img {
 }
 
 .navigation-item {
-  margin: 0 18px -1px 15px;
+  margin: 0 18px 0 15px;
   padding: 19px 0;
 }
 
@@ -327,6 +327,7 @@ color: rgba(255, 255, 255, 0.3);
 
 .favorites-delete:active {
   opacity: 15%;
+  border-color: transparent;
 }
 
 .popover-all-favorites {
@@ -348,6 +349,7 @@ color: rgba(255, 255, 255, 0.3);
 
 .popover-all-favorites:active {
   color: rgba(255, 255, 255, 0.7);
+  border-color: transparent;
 }
 
 .popover-favorites .popover-all-favorites {
@@ -404,8 +406,7 @@ color: rgba(255, 255, 255, 0.3);
 }
 
 .button-search {
-  line-height: 36px;
-  padding: 11px 150px;
+  line-height: 18px;
   border-radius: 9px;
   border: 3px solid transparent;
 }
@@ -547,6 +548,8 @@ color: rgba(255, 255, 255, 0.3);
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  text-align: center;
+  max-width: 180px;
 }
 
 .advantages-item-number {
@@ -652,8 +655,9 @@ ul .advantage-item-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   min-height: 417px;
+  padding: 0 312px;
 }
 
 .search {
@@ -665,14 +669,14 @@ ul .advantage-item-title {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .search-text,
 .page-main-text {
   font-size: 22px;
   line-height: 26px;
-  padding: 0 331px 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -698,7 +702,7 @@ ul .advantage-item-title {
 }
 
 .page-main-title {
-  padding-bottom: 26px;
+  margin-bottom: 26px;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -1008,6 +1012,7 @@ ul .advantage-item-title {
 
 .btn-control:active {
   opacity: 30%;
+  border-color: transparent;
 }
 
 .control-dec {
@@ -1157,6 +1162,7 @@ ul .advantage-item-title {
 
 .btn-search:active {
   color: rgba(255, 255, 255, 0.7);
+  border-color: transparent;
 }
 
 .newsletter--with-background {
@@ -1166,6 +1172,7 @@ ul .advantage-item-title {
   background-size: 100% auto;
   background-repeat: no-repeat;
   min-height: 411px;
+  padding: 0 339px;
 }
 
 .field {
@@ -1711,11 +1718,6 @@ ul .advantage-item-title {
 
 .range-toggle:focus {
   outline: none;
-  border: 2px solid #83b3d3;
-}
-
-.range-toggle:focus {
-  outline: none;
   border: 3px solid #83b3d3;
 }
 
@@ -1809,8 +1811,8 @@ ul .advantage-item-title {
 
 .catalog-filter-input:active {
   background-color: #756257;
-  border-color: transparent;
   outline: 2px solid #ffffff;
+  box-shadow: none;
 }
 
 .catalog-filter-label::after {
