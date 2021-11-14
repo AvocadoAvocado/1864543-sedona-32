@@ -11,7 +11,7 @@
 <body>
   <div class="page-container">
     <header class="page-header">
-      <a class="page-header-link clean" href="https://htmlacademy.ru/">
+      <a class="page-header-link" href="https://htmlacademy.ru/">
         <img class="page-header-logo" src="images/header/page-logo.svg" alt="Логотип городка Седона" width="138" height="70">
       </a>
       <div class="header-container">
@@ -29,7 +29,6 @@
           </ul>
         </nav>
         <div class="container-user">
-          <div class="container-user-icon">
             <a class="container-user-link clean" href="#">
               <svg class="navigation-icon" aria-hidden="true" focusable="false" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -37,8 +36,6 @@
               </svg>
               <span class="visually-hidden">Поиск.</span>
             </a>
-          </div>
-          <div class="container-user-icon">
             <a class="container-user-link link-favorites clean" href="#">
               <svg class="navigation-icon" aria-hidden="true" focusable="false" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -46,54 +43,53 @@
               </svg>
               <span class="visually-hidden">В избранное.</span>
             </a>
-            <div class="popover popover-favorites popover-open">
-              <div class="popover-content">
-                <div class="popover-content-item">
-                  <a class="popover-inner-link clean" href="#">
-                    <img class="hotel-link-image clean" src="images/popover/hotel-2-small.jpg" alt="гостиница 2" width="48" height="48">
-                    <div class="link-content">
-                      <h4 class="hotel-link-title clean">Desert Quail Inn</h4>
-                      <span class="hotel-link-subtitle">Мотель</span>
-                    </div>
-                  </a>
-                  <button class="favorites-delete clean" type="button">
-                    <svg class="popover-icon" aria-hidden="true" focusable="false" width="16" height="16"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.3 2.3H13.1H2.8H0.6C0.3 2.3 0 2.5 0 2.8C0 3.1 0.3 3.4 0.6 3.4H2.3V15.4C2.3 15.7 2.6 16 2.9 16H13.1C13.4 16 13.7 15.7 13.7 15.4V3.4H15.4C15.7 3.4 16 3.1 16 2.8C16 2.5 15.6 2.3 15.3 2.3ZM12.5 14.8H3.4V3.4H12.5V14.8Z" />
-                      <path
-                        d="M6.19995 1.2H9.59995C9.89995 1.2 10.2 0.9 10.2 0.6C10.2 0.3 9.99995 0 9.69995 0H6.19995C5.89995 0 5.69995 0.3 5.69995 0.6C5.69995 0.9 5.89995 1.2 6.19995 1.2Z" />
-                      <path
-                        d="M6.2001 12C6.5001 12 6.8001 11.7 6.8001 11.4V5.7C6.8001 5.4 6.5001 5.1 6.2001 5.1C5.9001 5.1 5.6001 5.4 5.6001 5.7V11.4C5.7001 11.7 5.9001 12 6.2001 12Z" />
-                      <path
-                        d="M9.7001 12C10.0001 12 10.3001 11.7 10.3001 11.4V5.7C10.3001 5.4 10.0001 5.1 9.7001 5.1C9.4001 5.1 9.1001 5.5 9.1001 5.7V11.4C9.1001 11.7 9.3001 12 9.7001 12Z" />
-                    </svg>
-                  </button>
-                </div>
-                <div class="popover-content-item">
-                  <a class="popover-inner-link clean" href="#">
-                    <img class="hotel-link-image clean" src="images/popover/hotel-3-small.jpg" alt="гостиница 3" width="48" height="48">
-                    <div class="link-content">
-                      <h4 class="hotel-link-title clean">Villas at Poco Diablo</h4>
-                      <span class="hotel-link-subtitle">Апартаменты</span>
-                    </div>
-                  </a>
-                  <button class="favorites-delete clean" type="button">
-                    <svg class="popover-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.3 2.3H13.1H2.8H0.6C0.3 2.3 0 2.5 0 2.8C0 3.1 0.3 3.4 0.6 3.4H2.3V15.4C2.3 15.7 2.6 16 2.9 16H13.1C13.4 16 13.7 15.7 13.7 15.4V3.4H15.4C15.7 3.4 16 3.1 16 2.8C16 2.5 15.6 2.3 15.3 2.3ZM12.5 14.8H3.4V3.4H12.5V14.8Z" />
-                      <path
-                        d="M6.19995 1.2H9.59995C9.89995 1.2 10.2 0.9 10.2 0.6C10.2 0.3 9.99995 0 9.69995 0H6.19995C5.89995 0 5.69995 0.3 5.69995 0.6C5.69995 0.9 5.89995 1.2 6.19995 1.2Z" />
-                      <path
-                        d="M6.2001 12C6.5001 12 6.8001 11.7 6.8001 11.4V5.7C6.8001 5.4 6.5001 5.1 6.2001 5.1C5.9001 5.1 5.6001 5.4 5.6001 5.7V11.4C5.7001 11.7 5.9001 12 6.2001 12Z" />
-                      <path
-                        d="M9.7001 12C10.0001 12 10.3001 11.7 10.3001 11.4V5.7C10.3001 5.4 10.0001 5.1 9.7001 5.1C9.4001 5.1 9.1001 5.5 9.1001 5.7V11.4C9.1001 11.7 9.3001 12 9.7001 12Z" />
-                    </svg>
-                  </button>
-                </div>
+          <div class="popover popover-favorites popover-open">
+            <div class="popover-content">
+              <div class="popover-content-item">
+                <a class="popover-inner-link clean" href="#">
+                  <img class="hotel-link-image clean" src="images/popover/hotel-2-small.jpg" alt="гостиница 2" width="48" height="48">
+                  <div class="link-content">
+                    <h4 class="hotel-link-title clean">Desert Quail Inn</h4>
+                    <span class="hotel-link-subtitle">Мотель</span>
+                  </div>
+                </a>
+                <button class="favorites-delete clean" type="button">
+                  <svg class="popover-icon" aria-hidden="true" focusable="false" width="16" height="16"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M15.3 2.3H13.1H2.8H0.6C0.3 2.3 0 2.5 0 2.8C0 3.1 0.3 3.4 0.6 3.4H2.3V15.4C2.3 15.7 2.6 16 2.9 16H13.1C13.4 16 13.7 15.7 13.7 15.4V3.4H15.4C15.7 3.4 16 3.1 16 2.8C16 2.5 15.6 2.3 15.3 2.3ZM12.5 14.8H3.4V3.4H12.5V14.8Z" />
+                    <path
+                      d="M6.19995 1.2H9.59995C9.89995 1.2 10.2 0.9 10.2 0.6C10.2 0.3 9.99995 0 9.69995 0H6.19995C5.89995 0 5.69995 0.3 5.69995 0.6C5.69995 0.9 5.89995 1.2 6.19995 1.2Z" />
+                    <path
+                      d="M6.2001 12C6.5001 12 6.8001 11.7 6.8001 11.4V5.7C6.8001 5.4 6.5001 5.1 6.2001 5.1C5.9001 5.1 5.6001 5.4 5.6001 5.7V11.4C5.7001 11.7 5.9001 12 6.2001 12Z" />
+                    <path
+                      d="M9.7001 12C10.0001 12 10.3001 11.7 10.3001 11.4V5.7C10.3001 5.4 10.0001 5.1 9.7001 5.1C9.4001 5.1 9.1001 5.5 9.1001 5.7V11.4C9.1001 11.7 9.3001 12 9.7001 12Z" />
+                  </svg>
+                </button>
               </div>
-              <button class="popover-all-favorites button clean" type="button">Все избранные</button>
+              <div class="popover-content-item">
+                <a class="popover-inner-link clean" href="#">
+                  <img class="hotel-link-image clean" src="images/popover/hotel-3-small.jpg" alt="гостиница 3" width="48" height="48">
+                  <div class="link-content">
+                    <h4 class="hotel-link-title clean">Villas at Poco Diablo</h4>
+                    <span class="hotel-link-subtitle">Апартаменты</span>
+                  </div>
+                </a>
+                <button class="favorites-delete clean" type="button">
+                  <svg class="popover-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M15.3 2.3H13.1H2.8H0.6C0.3 2.3 0 2.5 0 2.8C0 3.1 0.3 3.4 0.6 3.4H2.3V15.4C2.3 15.7 2.6 16 2.9 16H13.1C13.4 16 13.7 15.7 13.7 15.4V3.4H15.4C15.7 3.4 16 3.1 16 2.8C16 2.5 15.6 2.3 15.3 2.3ZM12.5 14.8H3.4V3.4H12.5V14.8Z" />
+                    <path
+                      d="M6.19995 1.2H9.59995C9.89995 1.2 10.2 0.9 10.2 0.6C10.2 0.3 9.99995 0 9.69995 0H6.19995C5.89995 0 5.69995 0.3 5.69995 0.6C5.69995 0.9 5.89995 1.2 6.19995 1.2Z" />
+                    <path
+                      d="M6.2001 12C6.5001 12 6.8001 11.7 6.8001 11.4V5.7C6.8001 5.4 6.5001 5.1 6.2001 5.1C5.9001 5.1 5.6001 5.4 5.6001 5.7V11.4C5.7001 11.7 5.9001 12 6.2001 12Z" />
+                    <path
+                      d="M9.7001 12C10.0001 12 10.3001 11.7 10.3001 11.4V5.7C10.3001 5.4 10.0001 5.1 9.7001 5.1C9.4001 5.1 9.1001 5.5 9.1001 5.7V11.4C9.1001 11.7 9.3001 12 9.7001 12Z" />
+                  </svg>
+                </button>
+              </div>
             </div>
+            <button class="popover-all-favorites button clean" type="button">Все избранные</button>
           </div>
           <button class="button btn-want clean" type="button">Хочу сюда!</button>
         </div>
@@ -122,30 +118,29 @@
           <div class="advantages-item-text">
             <h3 class="advantage-item-title clean">Настоящий<br />городок</h3>
             <span class="advantages-item-number">— №1 —</span>
-            <p class="advantages-item-description clean">Седона — не аттракцион<br>для туристов, там течёт<br>своя жизнь
+            <p class="advantages-item-description clean">Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
           </div>
           <div class="advantages-picture picture-photo-1"></div>
         </div>
 
         <ul class="advantages-list clean">
-          <li class="advantages-item">
-            <h3 class="advantage-item-title item-icon icon-house clean">Жильё</h3>
-            <p class="advantages-item-description clean">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!
+          <li class="advantages-item item-icon icon-house">
+            <h3 class="advantage-item-title clean">Жильё</h3>
+            <p class="advantages-item-description clean">Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
           </li>
 
-          <li class="advantages-item advantages-item-food">
-            <h3 class="advantage-item-title item-icon icon-food clean">Еда</h3>
-            <p class="advantages-item-description clean">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не
+          <li class="advantages-item item-icon icon-food">
+            <h3 class="advantage-item-title clean">Еда</h3>
+            <p class="advantages-item-description clean">Всегда заказывайте топовый фирменный бургер, вы не
               разочаруетесь!
             </p>
           </li>
 
-          <li class="advantages-item">
-            <h3 class="advantage-item-title item-icon icon-present clean">Сувениры</h3>
-            <p class="advantages-item-description clean">Не только китайского,<br>но и настоящего
-              местного<br>производства!
+          <li class="advantages-item item-icon icon-present">
+            <h3 class="advantage-item-title clean">Сувениры</h3>
+            <p class="advantages-item-description clean">Не только китайского, но и настоящего местного производства!
             </p>
           </li>
         </ul>
@@ -153,28 +148,27 @@
         <div class="advantages-item--wide item-wide">
           <div class="advantages-picture picture-photo-2"></div>
           <div class="advantages-item-text">
-            <h3 class="advantage-item-title clean">Там есть<br>мост дьявола</h3>
+            <h3 class="advantage-item-title clean">Там есть мост дьявола</h3>
             <span class="advantages-item-number">— №2 —</span>
-            <p class="advantages-item-description clean">Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется
-            </p>
+            <p class="advantages-item-description clean">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </div>
         </div>
 
         <ul class="advantages-list--number clean">
-          <li class="advantages-item">
-            <h3 class="advantage-item-title clean">Небольшая<br>площадь</h3>
+          <li class="advantages-item item-number">
+            <h3 class="advantage-item-title clean">Небольшая площадь</h3>
             <span class="advantages-item-number">— №3 —</span>
             <p class="advantages-item-description clean">Все достопримечательности находятся очень близко</p>
           </li>
 
-          <li class="advantages-item advantages-item-road">
-            <h3 class="advantage-item-title clean">Красивая<br>дорога</h3>
+          <li class="advantages-item item-number advantages-item-road">
+            <h3 class="advantage-item-title clean">Красивая дорога</h3>
             <span class="advantages-item-number">— №4 —</span>
             <p class="advantages-item-description clean">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
 
-          <li class="advantages-item">
-            <h3 class="advantage-item-title clean">Мало<br>туристов</h3>
+          <li class="advantages-item item-number">
+            <h3 class="advantage-item-title clean">Мало туристов</h3>
             <span class="advantages-item-number">— №5 —</span>
             <p class="advantages-item-description clean">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
@@ -185,20 +179,20 @@
       <section class="search">
         <div class="container-search">
           <h2 class="search-title clean">Заинтересовались?</h2>
-          <p class="search-text clean">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
+          <p class="search-text clean">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
             гостиниц в Седоне</p>
-          <a class="button button-search clean" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+          <a class="button button-search clean" href="#">Поиск гостиницы в седоне</a>
         </div>
       </section>
 
       <section class="newsletter newsletter--with-background">
         <h2 class="page-main-title clean">Подпишитесь на рассылку</h2>
-        <p class="page-main-text clean">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+        <p class="page-main-text clean">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="newsletter-email clean">
             <label class="visually-hidden" for="newsletter-email">Email.</label>
             <input class="field clean" type="email" placeholder="Ваш e-mail" name="newsletter-email"
-              id="newsletter-email" required>
+              id="newsletter-email">
           </p>
           <button class="button newsletter-button subscribe clean" type="submit">Подписаться</button>
         </form>
