@@ -90,6 +90,7 @@ img {
   position: relative;
   display: flex;
   align-items: center;
+  padding: 6px 12px;
 }
 
 .navigation-link:hover {
@@ -158,7 +159,7 @@ img {
 }
 
 .link-favorites:active .link-favorites-count {
-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .container-user-link:hover .navigation-icon {
@@ -436,8 +437,8 @@ color: rgba(255, 255, 255, 0.3);
 .navigation-item-active .navigation-link::after {
   content: "";
   position: absolute;
-  left: 1px;
-  right: 1px;
+  left: 12px;
+  right: 12px;
   height: 2px;
   background-color: #756257;
   bottom: -1px;
@@ -697,7 +698,7 @@ ul .advantage-item-title {
 }
 
 .container-newsletter {
-padding: 0 350px;
+  padding: 0 350px;
 }
 
 .page-main-title {
@@ -797,7 +798,6 @@ padding: 0 350px;
   border-color: transparent;
 }
 
-
 .htmlacademy-link {
   padding: 10px;
   border: 3px solid transparent;
@@ -831,7 +831,6 @@ padding: 0 350px;
 .htmlacademy-link:active {
   border-color: transparent;
 }
-
 
 .modal-container {
   z-index: 10;
@@ -1405,7 +1404,6 @@ padding: 0 350px;
   color: rgba(255, 255, 255, 0.7);
   border-color: transparent;
 }
-
 
 .hotel-card-title {
   font-size: 24px;
