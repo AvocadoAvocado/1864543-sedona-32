@@ -109,7 +109,7 @@
             <span class="advantages-item-number">— №1 —</span>
             <p class="advantages-item-description clean">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
-          <div class="advantages-picture picture-photo-1"></div>
+          <img class="advantages-item-picture" src="images/photo-1.jpg" alt="Фото городка Седона" width="800" height="384">
         </div>
 
         <ul class="advantages-list clean">
@@ -130,7 +130,7 @@
         </ul>
 
         <div class="advantages-item--wide item-wide">
-          <div class="advantages-picture picture-photo-2"></div>
+          <img class="advantages-item-picture" src="images/photo-2.jpg" alt="Фото городка Седона" width="800" height="384">
           <div class="advantages-item-text">
             <h3 class="advantage-item-title clean">Там есть мост дьявола</h3>
             <span class="advantages-item-number">— №2 —</span>
@@ -176,7 +176,8 @@
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="newsletter-email clean">
             <label class="visually-hidden" for="newsletter-email">Email.</label>
-            <input class="field field--error clean" type="email" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email" required>
+            <!-- Чтобы посмотреть состояние невалидности необходимо добавить класс field--error -->
+            <input class="field clean" type="email" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email" required>
           </p>
           <button class="button newsletter-button subscribe clean" type="submit">Подписаться</button>
         </form>

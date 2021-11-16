@@ -475,6 +475,7 @@ img {
 
 .hotel-card-image {
   vertical-align: bottom;
+  flex-shrink: 0;
 }
 
 .hotel-card-image:hover {
@@ -553,16 +554,6 @@ img {
 .advantages-item-number {
   display: block;
   margin: 26px 0 16px 0;
-}
-
-.advantages-picture {
-  width: 800px;
-  height: 384px;
-  background-repeat: no-repeat;
-}
-
-.picture-photo-1 {
-  background-image: url("../images/photo-1.jpg");
 }
 
 .picture-photo-2 {
@@ -757,6 +748,7 @@ ul .advantage-item-title {
 .footer-social-list {
   display: flex;
   flex-wrap: wrap;
+  max-width: 120px;
 }
 
 .footer-social-link {
@@ -886,7 +878,7 @@ ul .advantage-item-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 45px;
+  margin-bottom: 57px;
 }
 
 .modal-close-button::before,
@@ -1212,7 +1204,6 @@ ul .advantage-item-title {
   border: 3px solid #000000;
 }
 
-/*status error*/
 .field--error {
   border: 2px solid #ff5757;
   background-color: #ffffff;
@@ -1291,7 +1282,7 @@ ul .advantage-item-title {
   font-weight: 700;
   color: #ffffff;
   background-color: #83b3d3;
-  padding: 7px 0;
+  padding: 7px 10px;
   border-radius: 4px;
   border: 3px solid transparent;
   min-width: 160px;
@@ -1320,7 +1311,7 @@ ul .advantage-item-title {
   font-weight: 700;
   color: #ffffff;
   background-color: #7db54f;
-  padding: 7px 0;
+  padding: 7px 10px;
   border-radius: 4px;
   border: 3px solid transparent;
   min-width: 160px;
@@ -1431,6 +1422,7 @@ ul .advantage-item-title {
   font-style: normal;
   text-transform: none;
   color: #000000;
+  max-width: 642px;
 }
 
 .hotel-card-title:hover {
