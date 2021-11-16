@@ -292,6 +292,7 @@ img {
 
 .hotel-link-title {
   line-height: 18px;
+  color: #000000;
 }
 
 .hotel-link-subtitle {
@@ -1057,10 +1058,14 @@ ul .advantage-item-title {
 
 .status-invalid {
   color: #ff5757;
+  font-size: 16px;
+  line-height: 17px;
 }
 
 .status-valid {
   color: #333333;
+  font-size: 16px;
+  line-height: 17px;
 }
 
 .info {
@@ -1075,7 +1080,7 @@ ul .advantage-item-title {
   align-items: center;
   border: 3px solid transparent;
   outline: none;
-  margin-right: 18px;
+  margin-right: 22px;
 }
 
 .info:hover {
@@ -1099,8 +1104,8 @@ ul .advantage-item-title {
   position: absolute;
   z-index: 1;
   transform: translateX(-50%);
-  left: 484px;
-  top: 386px;
+  left: 481px;
+  top: 382px;
 }
 
 .popup-info {
@@ -1146,7 +1151,7 @@ ul .advantage-item-title {
   border-radius: 10px;
   padding: 8px 0;
   border: 3px solid #83b3d3;
-  margin-top: 14px;
+  margin-top: 28px;
 }
 
 .btn-search:hover {
@@ -1179,6 +1184,7 @@ ul .advantage-item-title {
   background-color: #f2f2f2;
   border: 3px solid transparent;
   padding: 0 22px;
+  font-size: 18px;
 }
 
 .field:hover {
