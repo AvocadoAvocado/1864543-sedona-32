@@ -291,7 +291,8 @@ img {
 }
 
 .hotel-link-title {
-  line-height: 18px;
+  line-height: 28px;
+  font-weight: 700;
   color: #000000;
 }
 
@@ -877,6 +878,10 @@ ul .advantage-item-title {
   outline: none;
 }
 
+.modal-close-button:active {
+  border-color: transparent;
+}
+
 .search-dialog-header {
   display: flex;
   justify-content: space-between;
@@ -891,6 +896,11 @@ ul .advantage-item-title {
   height: 2px;
   background-color: #000000;
   content: "";
+}
+
+.modal-close-button:active::before,
+.modal-close-button:active::after {
+  opacity: 30%;
 }
 
 .modal-close-button::before {
@@ -1202,8 +1212,11 @@ ul .advantage-item-title {
   border: 3px solid #000000;
 }
 
-.field:invalid {
+/*status error*/
+.field--error {
   border: 2px solid #ff5757;
+  background-color: #ffffff;
+  opacity: 60%;
 }
 
 .content-container {
