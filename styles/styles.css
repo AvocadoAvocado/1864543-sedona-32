@@ -582,6 +582,10 @@ ul .advantage-item-title {
   position: relative;
 }
 
+.icon-food {
+  background-color: #ffffff;
+}
+
 .icon-house::before {
   background-image: url("../images/item-hotel.svg");
   content: "";
